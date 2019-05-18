@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "opendso_afe_10mhz-rescue")(type "Legacy")(uri "${KIPRJMOD}/opendso_afe_10mhz-rescue.lib")(options "")(descr ""))
+  (lib (name "max19506")(type "Legacy")(uri "/home/twl/projects_hdl/openDSO/pcb/lib/max19506.lib")(options "")(descr ""))
+)

@@ -1,0 +1,132 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MCP47CVB02-Analog_Interface
+#
+DEF MCP47CVB02-Analog_Interface IC 0 50 Y Y 1 F N
+F0 "IC" 350 50 50 H V C CNN
+F1 "MCP47CVB02-Analog_Interface" 0 -1175 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOP65P490X110-8N" 0 -1250 50 H I L CNN
+F3 "" 0 -1325 50 H I L CNN
+F4 "MCP47CVB02" 0 -1400 50 H I L CNN "Part Number"
+F5 "MCP47CVB02" 0 -1475 50 H I L CNN "Library Ref"
+F6 "SchLib\\Analog & Interface.SchLib" 0 -1550 50 H I L CNN "Library Path"
+F7 "MCP47CVB02" 0 -1625 50 H I L CNN "Comment"
+F8 "Standard" 0 -1700 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -1775 50 H I L CNN "Component Type"
+F10 "MCP47CVB02" 0 -1850 50 H I L CNN "Device"
+F11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" 0 -1925 50 H I L CNN "PackageDescription"
+F12 " " 0 -2000 50 H I L CNN "Status"
+F13 "MCP47CVB02" 0 -2225 50 H I L CNN "Manufacturer Part Number"
+F14 "8" 0 -2300 50 H I L CNN "Pin Count"
+F15 "MSOP8" 0 -2375 50 H I L CNN "Case"
+F16 "Yes" 0 -2450 50 H I L CNN "Mounted"
+F17 "No" 0 -2525 50 H I L CNN "Socket"
+F18 "Yes" 0 -2600 50 H I L CNN "SMD"
+F19 "No" 0 -2675 50 H I L CNN "PressFit"
+F20 "No" 0 -2750 50 H I L CNN "Sense"
+F21 " " 0 -2825 50 H I L CNN "Sense Comment"
+F22 "No" 0 -2900 50 H I L CNN "Bonding"
+F23 " " 0 -2975 50 H I L CNN "Status Comment"
+F24 "1.1mm" 0 -3050 50 H I L CNN "ComponentHeight"
+F25 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3125 50 H I L CNN "Footprint Path"
+F26 "SOP65P490X110-8N" 0 -3200 50 H I L CNN "Footprint Ref"
+F27 "CERN DEM JLC" 0 -3275 50 H I L CNN "Author"
+F28 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\AD5662BRMZ-1.pdf" 0 -3350 50 H I L CNN "HelpURL"
+F29 " " 0 -3425 50 H I L CNN "ComponentLink1URL"
+F30 " " 0 -3500 50 H I L CNN "ComponentLink2URL"
+F31 " " 0 -3575 50 H I L CNN "ComponentLink2Description"
+F32 " " 0 -3650 50 H I L CNN "ComponentLink1Description"
+F33 "01/10/11 00:00:00" 0 -3725 50 H I L CNN "CreateDate"
+F34 "01/10/11 00:00:00" 0 -3800 50 H I L CNN "LatestRevisionDate"
+F35 "Analog & Interface" 0 -3875 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -3950 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -4025 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -4100 50 H I L CNN "License"
+DRAW
+S 0 0 700 -1000 0 1 0 f
+X VDD 1 -200 -900 200 R 60 60 0 1 W
+X SDA 10 -200 -100 200 R 60 60 0 1 B
+X A0 2 -200 -400 200 R 60 60 0 1 I
+X VREF 3 900 -700 200 L 60 60 0 1 I
+X VOUT0 4 900 -100 200 L 60 60 0 1 O
+X VOUT1 5 900 -200 200 L 60 60 0 1 O
+X HVC/~LAT 6 -200 -500 200 R 60 60 0 1 I
+X VSS 7 900 -900 200 L 60 60 0 1 W
+X A1 8 -200 -300 200 R 60 60 0 1 I
+X SCL 9 -200 -200 200 R 60 60 0 1 I
+ENDDRAW
+ENDDEF
+#
+# REL_PANASONIC_TQ2SA-5V-Relays
+#
+DEF REL_PANASONIC_TQ2SA-5V-Relays RL 0 60 Y Y 3 L N
+F0 "RL" 200 150 50 H V C CNN
+F1 "REL_PANASONIC_TQ2SA-5V-Relays" 0 -200 60 H I L CNN
+F2 "Relays:REL_PANASONIC_TQ2SA" 0 -290 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\REL_PANASONIC_TQ2.pdf" 0 -380 60 H I L CNN
+F4 "=Value" 0 -470 60 H I L CNN
+F5 "REL_PANASONIC_TQ2SA-5V" 0 -470 60 H I L CNN "Part Number"
+F6 "REL_PANASONIC_TQ2SA" 0 -560 60 H I L CNN "Library Ref"
+F7 "SchLib\\Relays.SchLib" 0 -650 60 H I L CNN "Library Path"
+F8 "=Value" 0 -740 60 H I L CNN "Comment"
+F9 "Standard" 0 -830 60 H I L CNN "Component Kind"
+F10 "Standard" 0 -920 60 H I L CNN "Component Type"
+F11 "REL_PANASONIC_TQ2SA" 0 -1010 60 H I L CNN "Footprint"
+F12 "12" 0 -1100 60 H I L CNN "Pin Count"
+F13 "~~" 0 -1190 60 H I L CNN "Case"
+F14 "PcbLib\\Relays.PcbLib" 0 -1280 60 H I L CNN "Footprint Path"
+F15 "REL_PANASONIC_TQ2SA" 0 -1370 60 H I L CNN "Footprint Ref"
+F16 "12 Leads Single Side Stable Relay, SMD, Very high sensitivity (140mW) PANASONIC TQ Series, Body 14mm x 9mm x 5.6mm H" 0 -1460 60 H I L CNN "PackageDescription"
+F17 "~~" 0 -1550 60 H I L CNN "Family"
+F18 "Yes" 0 -1640 60 H I L CNN "Mounted"
+F19 "No" 0 -1730 60 H I L CNN "Socket"
+F20 "Yes" 0 -1820 60 H I L CNN "SMD"
+F21 "No" 0 -1910 60 H I L CNN "PressFit"
+F22 "No" 0 -2000 60 H I L CNN "Sense"
+F23 "~~" 0 -2090 60 H I L CNN "Sense Comment"
+F24 "None" 0 -2180 60 H I L CNN "Status"
+F25 "~~" 0 -2270 60 H I L CNN "Status Comment"
+F26 "5VDC" 0 -2360 60 H I L CNN "Val"
+F27 "~~" 0 -2450 60 H I L CNN "SCEM"
+F28 "DPDT, Single Side Stable, Very High Sensitivity (140mW) Relay, TQ Series" 0 -2540 60 H I L CNN "Part Description"
+F29 "PANASONIC" 0 -2630 60 H I L CNN "Manufacturer"
+F30 "TQ2SA-5V" 0 -2720 60 H I L CNN "Manufacturer Part Number"
+F31 "5.6mm" 0 -2810 60 H I L CNN "ComponentHeight"
+F32 "~~" 0 -2900 60 H I L CNN "Manufacturer1 Example"
+F33 "~~" 0 -2990 60 H I L CNN "Manufacturer1 Part Number"
+F34 "~~" 0 -3080 60 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\REL_PANASONIC_TQ2.pdf" 0 -3170 60 H I L CNN "HelpURL"
+F36 "~~" 0 -3260 60 H I L CNN "ComponentLink1URL"
+F37 "~~" 0 -3350 60 H I L CNN "ComponentLink1Description"
+F38 "~~" 0 -3440 60 H I L CNN "ComponentLink2URL"
+F39 "~~" 0 -3530 60 H I L CNN "ComponentLink2Description"
+F40 "CERN DEM MR" 0 -3620 60 H I L CNN "Author"
+F41 "09/05/16 00:00:00" 0 -3710 60 H I L CNN "CreateDate"
+F42 "09/05/16 00:00:00" 0 -3800 60 H I L CNN "LatestRevisionDate"
+F43 "Relays" 0 -3890 60 H I L CNN "Library Name"
+F44 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3980 60 H I L CNN "License"
+DRAW
+A 200 0 25 0 -1 2 1 0 N 225 0 225 0
+A 400 -100 25 0 -1 2 1 0 N 425 -100 425 -100
+A 400 100 25 0 -1 2 1 0 N 425 100 425 100
+A 200 0 25 0 -1 3 1 0 N 225 0 225 0
+A 400 -100 25 0 -1 3 1 0 N 425 -100 425 -100
+A 400 100 25 0 -1 3 1 0 N 425 100 425 100
+T 0 90 10 50 1 1 1 + Normal 0 L B
+P 2 1 1 10 250 50 150 -50 N
+P 5 1 1 10 250 100 150 100 150 -100 250 -100 250 100 N
+P 2 2 1 10 420 80 220 10 N
+P 2 3 1 10 420 80 220 10 N
+X 1 1 0 0 150 R 60 0 1 1 P
+X 10 10 400 0 150 L 60 0 1 1 P
+X NC 2 600 100 175 L 60 0 2 1 B
+X C 3 0 0 175 R 60 0 2 1 B
+X NO 4 600 -100 175 L 60 0 2 1 B
+X NO 7 600 -100 175 L 60 0 3 1 B
+X C 8 0 0 175 R 60 0 3 1 B
+X NC 9 600 100 175 L 60 0 3 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
