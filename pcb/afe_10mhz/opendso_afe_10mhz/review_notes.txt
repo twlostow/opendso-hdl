@@ -1,0 +1,11 @@
+10 MHz AFE Eagle->KiCad translation, review notes:
+- moved to hierarchical design (no global nets anymore)
+- added a clean +2V5A regulator for ADC AVdd/offset DAC (not connected anywhere in the original schematic) 
+- removed IC32 shift register (makes no sense, high voltage spikes from relay coils would quickly damage it anyway). Used spare MCU pins to drive the relay drivers.
+- added an Samtec LSS B2B connector with provisional layout
+- GND/GNDA split (to be considered during layout)
+- I2C pullups changed to 10k for less current draw
+
+
+To be considered:
+- optimize component values, drop 0.1% resistors (are they *really* needed for an 8-bit ADC?)
