@@ -60,206 +60,156 @@ Wire Wire Line
 $Comp
 L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN1
 U 2 1 5CE52483
-P 6800 3400
-F 0 "RN1" H 6950 4336 50  0000 C CNN
-F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3205 50  0001 L CNN
-F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3130 50  0001 L CNN
-F 3 "" H 6800 3055 50  0001 L CNN
-F 4 "33" H 7150 4345 50  0000 C CNN "Val"
-F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 2980 50  0001 L CNN "Part Number"
-F 6 "RN DIL8_4xR_Isolated_1%" H 6800 2905 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6800 2830 50  0001 L CNN "Library Path"
-F 8 "33" H 6800 2755 50  0001 L CNN "Comment"
-F 9 "Standard" H 6800 2680 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6800 2605 50  0001 L CNN "Component Type"
-F 11 " " H 6800 2530 50  0001 L CNN "PackageDescription"
-F 12 "8" H 6800 2455 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2380 50  0001 L CNN "Footprint Path"
-F 14 "RN_YAGEO_TC164" H 6800 2305 50  0001 L CNN "Footprint Ref"
-F 15 "No" H 6800 2230 50  0001 L CNN "Sense"
-F 16 " " H 6800 2155 50  0001 L CNN "Status"
-F 17 "0.062W" H 6800 2080 50  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 6800 2005 50  0001 L CNN "TC"
-F 19 "±1%" H 6800 1930 50  0001 L CNN "Tolerance"
-F 20 " " H 6800 1855 50  0001 L CNN "Voltage"
-F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1780 50  0001 L CNN "Part Description"
-F 22 "YAGEO" H 6800 1705 50  0001 L CNN "Manufacturer"
-F 23 "TC164-FR-0733RL" H 6800 1630 50  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 6800 1555 50  0001 L CNN "Case"
-F 25 "Yes" H 6800 1480 50  0001 L CNN "Mounted"
-F 26 "No" H 6800 1405 50  0001 L CNN "PressFit"
-F 27 "No" H 6800 1330 50  0001 L CNN "Socket"
-F 28 " " H 6800 1255 50  0001 L CNN "Sense Comment"
-F 29 "Yes" H 6800 1180 50  0001 L CNN "SMD"
-F 30 " " H 6800 1105 50  0001 L CNN "Status Comment"
-F 31 "0.7mm" H 6800 1030 50  0001 L CNN "ComponentHeight"
-F 32 " " H 6800 955 50  0001 L CNN "Manufacturer1 Example"
-F 33 " " H 6800 880 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 " " H 6800 805 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 730 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM MR" H 6800 655 50  0001 L CNN "Author"
-F 37 "04/08/16 00:00:00" H 6800 580 50  0001 L CNN "CreateDate"
-F 38 "05/03/17 00:00:00" H 6800 505 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistor Networks SMD" H 6800 430 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 6800 355 50  0001 L CNN "Library Name"
-F 41 "Networks SMD" H 6800 280 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 205 50  0001 L CNN "License"
-	2    6800 3400
+P 6800 3500
+F 0 "RN1" H 6950 4436 50  0000 C CNN
+F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3305 50  0001 L CNN
+F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3230 50  0001 L CNN
+F 3 "" H 6800 3155 50  0001 L CNN
+F 4 "33" H 7150 4445 50  0000 C CNN "Val"
+F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3080 50  0001 L CNN "Part Number"
+F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3005 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 2930 50  0001 L CNN "Library Path"
+F 8 "33" H 6800 2855 50  0001 L CNN "Comment"
+F 9 "Standard" H 6800 2780 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 2705 50  0001 L CNN "Component Type"
+F 11 " " H 6800 2630 50  0001 L CNN "PackageDescription"
+F 12 "8" H 6800 2555 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2480 50  0001 L CNN "Footprint Path"
+F 14 "RN_YAGEO_TC164" H 6800 2405 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 6800 2330 50  0001 L CNN "Sense"
+F 16 " " H 6800 2255 50  0001 L CNN "Status"
+F 17 "0.062W" H 6800 2180 50  0001 L CNN "Power"
+F 18 "±200ppm/°C" H 6800 2105 50  0001 L CNN "TC"
+F 19 "±1%" H 6800 2030 50  0001 L CNN "Tolerance"
+F 20 " " H 6800 1955 50  0001 L CNN "Voltage"
+F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1880 50  0001 L CNN "Part Description"
+F 22 "YAGEO" H 6800 1805 50  0001 L CNN "Manufacturer"
+F 23 "TC164-FR-0733RL" H 6800 1730 50  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 1655 50  0001 L CNN "Case"
+F 25 "Yes" H 6800 1580 50  0001 L CNN "Mounted"
+F 26 "No" H 6800 1505 50  0001 L CNN "PressFit"
+F 27 "No" H 6800 1430 50  0001 L CNN "Socket"
+F 28 " " H 6800 1355 50  0001 L CNN "Sense Comment"
+F 29 "Yes" H 6800 1280 50  0001 L CNN "SMD"
+F 30 " " H 6800 1205 50  0001 L CNN "Status Comment"
+F 31 "0.7mm" H 6800 1130 50  0001 L CNN "ComponentHeight"
+F 32 " " H 6800 1055 50  0001 L CNN "Manufacturer1 Example"
+F 33 " " H 6800 980 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 " " H 6800 905 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 830 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM MR" H 6800 755 50  0001 L CNN "Author"
+F 37 "04/08/16 00:00:00" H 6800 680 50  0001 L CNN "CreateDate"
+F 38 "05/03/17 00:00:00" H 6800 605 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistor Networks SMD" H 6800 530 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 6800 455 50  0001 L CNN "Library Name"
+F 41 "Networks SMD" H 6800 380 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 305 50  0001 L CNN "License"
+	2    6800 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN1
 U 4 1 5CE52BE7
-P 6800 3600
-F 0 "RN1" H 6950 4536 50  0000 C CNN
-F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3405 50  0001 L CNN
-F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3330 50  0001 L CNN
-F 3 "" H 6800 3255 50  0001 L CNN
-F 4 "33" H 7150 4545 50  0000 C CNN "Val"
-F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3180 50  0001 L CNN "Part Number"
-F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3105 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6800 3030 50  0001 L CNN "Library Path"
-F 8 "33" H 6800 2955 50  0001 L CNN "Comment"
-F 9 "Standard" H 6800 2880 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6800 2805 50  0001 L CNN "Component Type"
-F 11 " " H 6800 2730 50  0001 L CNN "PackageDescription"
-F 12 "8" H 6800 2655 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2580 50  0001 L CNN "Footprint Path"
-F 14 "RN_YAGEO_TC164" H 6800 2505 50  0001 L CNN "Footprint Ref"
-F 15 "No" H 6800 2430 50  0001 L CNN "Sense"
-F 16 " " H 6800 2355 50  0001 L CNN "Status"
-F 17 "0.062W" H 6800 2280 50  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 6800 2205 50  0001 L CNN "TC"
-F 19 "±1%" H 6800 2130 50  0001 L CNN "Tolerance"
-F 20 " " H 6800 2055 50  0001 L CNN "Voltage"
-F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1980 50  0001 L CNN "Part Description"
-F 22 "YAGEO" H 6800 1905 50  0001 L CNN "Manufacturer"
-F 23 "TC164-FR-0733RL" H 6800 1830 50  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 6800 1755 50  0001 L CNN "Case"
-F 25 "Yes" H 6800 1680 50  0001 L CNN "Mounted"
-F 26 "No" H 6800 1605 50  0001 L CNN "PressFit"
-F 27 "No" H 6800 1530 50  0001 L CNN "Socket"
-F 28 " " H 6800 1455 50  0001 L CNN "Sense Comment"
-F 29 "Yes" H 6800 1380 50  0001 L CNN "SMD"
-F 30 " " H 6800 1305 50  0001 L CNN "Status Comment"
-F 31 "0.7mm" H 6800 1230 50  0001 L CNN "ComponentHeight"
-F 32 " " H 6800 1155 50  0001 L CNN "Manufacturer1 Example"
-F 33 " " H 6800 1080 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 " " H 6800 1005 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 930 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM MR" H 6800 855 50  0001 L CNN "Author"
-F 37 "04/08/16 00:00:00" H 6800 780 50  0001 L CNN "CreateDate"
-F 38 "05/03/17 00:00:00" H 6800 705 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistor Networks SMD" H 6800 630 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 6800 555 50  0001 L CNN "Library Name"
-F 41 "Networks SMD" H 6800 480 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 405 50  0001 L CNN "License"
-	4    6800 3600
+P 6800 3300
+F 0 "RN1" H 6950 4236 50  0000 C CNN
+F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3105 50  0001 L CNN
+F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3030 50  0001 L CNN
+F 3 "" H 6800 2955 50  0001 L CNN
+F 4 "33" H 7150 4245 50  0000 C CNN "Val"
+F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 2880 50  0001 L CNN "Part Number"
+F 6 "RN DIL8_4xR_Isolated_1%" H 6800 2805 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 2730 50  0001 L CNN "Library Path"
+F 8 "33" H 6800 2655 50  0001 L CNN "Comment"
+F 9 "Standard" H 6800 2580 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 2505 50  0001 L CNN "Component Type"
+F 11 " " H 6800 2430 50  0001 L CNN "PackageDescription"
+F 12 "8" H 6800 2355 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2280 50  0001 L CNN "Footprint Path"
+F 14 "RN_YAGEO_TC164" H 6800 2205 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 6800 2130 50  0001 L CNN "Sense"
+F 16 " " H 6800 2055 50  0001 L CNN "Status"
+F 17 "0.062W" H 6800 1980 50  0001 L CNN "Power"
+F 18 "±200ppm/°C" H 6800 1905 50  0001 L CNN "TC"
+F 19 "±1%" H 6800 1830 50  0001 L CNN "Tolerance"
+F 20 " " H 6800 1755 50  0001 L CNN "Voltage"
+F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1680 50  0001 L CNN "Part Description"
+F 22 "YAGEO" H 6800 1605 50  0001 L CNN "Manufacturer"
+F 23 "TC164-FR-0733RL" H 6800 1530 50  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 1455 50  0001 L CNN "Case"
+F 25 "Yes" H 6800 1380 50  0001 L CNN "Mounted"
+F 26 "No" H 6800 1305 50  0001 L CNN "PressFit"
+F 27 "No" H 6800 1230 50  0001 L CNN "Socket"
+F 28 " " H 6800 1155 50  0001 L CNN "Sense Comment"
+F 29 "Yes" H 6800 1080 50  0001 L CNN "SMD"
+F 30 " " H 6800 1005 50  0001 L CNN "Status Comment"
+F 31 "0.7mm" H 6800 930 50  0001 L CNN "ComponentHeight"
+F 32 " " H 6800 855 50  0001 L CNN "Manufacturer1 Example"
+F 33 " " H 6800 780 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 " " H 6800 705 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 630 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM MR" H 6800 555 50  0001 L CNN "Author"
+F 37 "04/08/16 00:00:00" H 6800 480 50  0001 L CNN "CreateDate"
+F 38 "05/03/17 00:00:00" H 6800 405 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistor Networks SMD" H 6800 330 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 6800 255 50  0001 L CNN "Library Name"
+F 41 "Networks SMD" H 6800 180 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 105 50  0001 L CNN "License"
+	4    6800 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN2
 U 1 1 5CE5715F
-P 6800 3700
-F 0 "RN2" H 6950 4636 50  0000 C CNN
-F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3505 50  0001 L CNN
-F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3430 50  0001 L CNN
-F 3 "" H 6800 3355 50  0001 L CNN
-F 4 "33" H 7150 4645 50  0000 C CNN "Val"
-F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3280 50  0001 L CNN "Part Number"
-F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3205 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6800 3130 50  0001 L CNN "Library Path"
-F 8 "33" H 6800 3055 50  0001 L CNN "Comment"
-F 9 "Standard" H 6800 2980 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6800 2905 50  0001 L CNN "Component Type"
-F 11 " " H 6800 2830 50  0001 L CNN "PackageDescription"
-F 12 "8" H 6800 2755 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2680 50  0001 L CNN "Footprint Path"
-F 14 "RN_YAGEO_TC164" H 6800 2605 50  0001 L CNN "Footprint Ref"
-F 15 "No" H 6800 2530 50  0001 L CNN "Sense"
-F 16 " " H 6800 2455 50  0001 L CNN "Status"
-F 17 "0.062W" H 6800 2380 50  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 6800 2305 50  0001 L CNN "TC"
-F 19 "±1%" H 6800 2230 50  0001 L CNN "Tolerance"
-F 20 " " H 6800 2155 50  0001 L CNN "Voltage"
-F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 2080 50  0001 L CNN "Part Description"
-F 22 "YAGEO" H 6800 2005 50  0001 L CNN "Manufacturer"
-F 23 "TC164-FR-0733RL" H 6800 1930 50  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 6800 1855 50  0001 L CNN "Case"
-F 25 "Yes" H 6800 1780 50  0001 L CNN "Mounted"
-F 26 "No" H 6800 1705 50  0001 L CNN "PressFit"
-F 27 "No" H 6800 1630 50  0001 L CNN "Socket"
-F 28 " " H 6800 1555 50  0001 L CNN "Sense Comment"
-F 29 "Yes" H 6800 1480 50  0001 L CNN "SMD"
-F 30 " " H 6800 1405 50  0001 L CNN "Status Comment"
-F 31 "0.7mm" H 6800 1330 50  0001 L CNN "ComponentHeight"
-F 32 " " H 6800 1255 50  0001 L CNN "Manufacturer1 Example"
-F 33 " " H 6800 1180 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 " " H 6800 1105 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 1030 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM MR" H 6800 955 50  0001 L CNN "Author"
-F 37 "04/08/16 00:00:00" H 6800 880 50  0001 L CNN "CreateDate"
-F 38 "05/03/17 00:00:00" H 6800 805 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistor Networks SMD" H 6800 730 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 6800 655 50  0001 L CNN "Library Name"
-F 41 "Networks SMD" H 6800 580 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 505 50  0001 L CNN "License"
-	1    6800 3700
+P 6800 4000
+F 0 "RN2" H 6950 4936 50  0000 C CNN
+F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3805 50  0001 L CNN
+F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3730 50  0001 L CNN
+F 3 "" H 6800 3655 50  0001 L CNN
+F 4 "33" H 7150 4945 50  0000 C CNN "Val"
+F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3580 50  0001 L CNN "Part Number"
+F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3505 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 3430 50  0001 L CNN "Library Path"
+F 8 "33" H 6800 3355 50  0001 L CNN "Comment"
+F 9 "Standard" H 6800 3280 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 3205 50  0001 L CNN "Component Type"
+F 11 " " H 6800 3130 50  0001 L CNN "PackageDescription"
+F 12 "8" H 6800 3055 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2980 50  0001 L CNN "Footprint Path"
+F 14 "RN_YAGEO_TC164" H 6800 2905 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 6800 2830 50  0001 L CNN "Sense"
+F 16 " " H 6800 2755 50  0001 L CNN "Status"
+F 17 "0.062W" H 6800 2680 50  0001 L CNN "Power"
+F 18 "±200ppm/°C" H 6800 2605 50  0001 L CNN "TC"
+F 19 "±1%" H 6800 2530 50  0001 L CNN "Tolerance"
+F 20 " " H 6800 2455 50  0001 L CNN "Voltage"
+F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 2380 50  0001 L CNN "Part Description"
+F 22 "YAGEO" H 6800 2305 50  0001 L CNN "Manufacturer"
+F 23 "TC164-FR-0733RL" H 6800 2230 50  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 2155 50  0001 L CNN "Case"
+F 25 "Yes" H 6800 2080 50  0001 L CNN "Mounted"
+F 26 "No" H 6800 2005 50  0001 L CNN "PressFit"
+F 27 "No" H 6800 1930 50  0001 L CNN "Socket"
+F 28 " " H 6800 1855 50  0001 L CNN "Sense Comment"
+F 29 "Yes" H 6800 1780 50  0001 L CNN "SMD"
+F 30 " " H 6800 1705 50  0001 L CNN "Status Comment"
+F 31 "0.7mm" H 6800 1630 50  0001 L CNN "ComponentHeight"
+F 32 " " H 6800 1555 50  0001 L CNN "Manufacturer1 Example"
+F 33 " " H 6800 1480 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 " " H 6800 1405 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 1330 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM MR" H 6800 1255 50  0001 L CNN "Author"
+F 37 "04/08/16 00:00:00" H 6800 1180 50  0001 L CNN "CreateDate"
+F 38 "05/03/17 00:00:00" H 6800 1105 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistor Networks SMD" H 6800 1030 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 6800 955 50  0001 L CNN "Library Name"
+F 41 "Networks SMD" H 6800 880 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 805 50  0001 L CNN "License"
+	1    6800 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN2
 U 3 1 5CE57192
-P 6800 3900
-F 0 "RN2" H 6950 4836 50  0000 C CNN
-F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3705 50  0001 L CNN
-F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3630 50  0001 L CNN
-F 3 "" H 6800 3555 50  0001 L CNN
-F 4 "33" H 7150 4845 50  0000 C CNN "Val"
-F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3480 50  0001 L CNN "Part Number"
-F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3405 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6800 3330 50  0001 L CNN "Library Path"
-F 8 "33" H 6800 3255 50  0001 L CNN "Comment"
-F 9 "Standard" H 6800 3180 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6800 3105 50  0001 L CNN "Component Type"
-F 11 " " H 6800 3030 50  0001 L CNN "PackageDescription"
-F 12 "8" H 6800 2955 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2880 50  0001 L CNN "Footprint Path"
-F 14 "RN_YAGEO_TC164" H 6800 2805 50  0001 L CNN "Footprint Ref"
-F 15 "No" H 6800 2730 50  0001 L CNN "Sense"
-F 16 " " H 6800 2655 50  0001 L CNN "Status"
-F 17 "0.062W" H 6800 2580 50  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 6800 2505 50  0001 L CNN "TC"
-F 19 "±1%" H 6800 2430 50  0001 L CNN "Tolerance"
-F 20 " " H 6800 2355 50  0001 L CNN "Voltage"
-F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 2280 50  0001 L CNN "Part Description"
-F 22 "YAGEO" H 6800 2205 50  0001 L CNN "Manufacturer"
-F 23 "TC164-FR-0733RL" H 6800 2130 50  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 6800 2055 50  0001 L CNN "Case"
-F 25 "Yes" H 6800 1980 50  0001 L CNN "Mounted"
-F 26 "No" H 6800 1905 50  0001 L CNN "PressFit"
-F 27 "No" H 6800 1830 50  0001 L CNN "Socket"
-F 28 " " H 6800 1755 50  0001 L CNN "Sense Comment"
-F 29 "Yes" H 6800 1680 50  0001 L CNN "SMD"
-F 30 " " H 6800 1605 50  0001 L CNN "Status Comment"
-F 31 "0.7mm" H 6800 1530 50  0001 L CNN "ComponentHeight"
-F 32 " " H 6800 1455 50  0001 L CNN "Manufacturer1 Example"
-F 33 " " H 6800 1380 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 " " H 6800 1305 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 1230 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM MR" H 6800 1155 50  0001 L CNN "Author"
-F 37 "04/08/16 00:00:00" H 6800 1080 50  0001 L CNN "CreateDate"
-F 38 "05/03/17 00:00:00" H 6800 1005 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistor Networks SMD" H 6800 930 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 6800 855 50  0001 L CNN "Library Name"
-F 41 "Networks SMD" H 6800 780 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 705 50  0001 L CNN "License"
-	3    6800 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN2
-U 2 1 5CE571F8
 P 6800 3800
 F 0 "RN2" H 6950 4736 50  0000 C CNN
 F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3605 50  0001 L CNN
@@ -304,7 +254,57 @@ F 39 "Resistor Networks SMD" H 6800 830 50  0001 L CNN "Database Table Name"
 F 40 "Resistors.DbLib" H 6800 755 50  0001 L CNN "Library Name"
 F 41 "Networks SMD" H 6800 680 50  0001 L CNN "Footprint Library"
 F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 605 50  0001 L CNN "License"
-	2    6800 3800
+	3    6800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN2
+U 2 1 5CE571F8
+P 6800 3900
+F 0 "RN2" H 6950 4836 50  0000 C CNN
+F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3705 50  0001 L CNN
+F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3630 50  0001 L CNN
+F 3 "" H 6800 3555 50  0001 L CNN
+F 4 "33" H 7150 4845 50  0000 C CNN "Val"
+F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3480 50  0001 L CNN "Part Number"
+F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3405 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 3330 50  0001 L CNN "Library Path"
+F 8 "33" H 6800 3255 50  0001 L CNN "Comment"
+F 9 "Standard" H 6800 3180 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 3105 50  0001 L CNN "Component Type"
+F 11 " " H 6800 3030 50  0001 L CNN "PackageDescription"
+F 12 "8" H 6800 2955 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2880 50  0001 L CNN "Footprint Path"
+F 14 "RN_YAGEO_TC164" H 6800 2805 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 6800 2730 50  0001 L CNN "Sense"
+F 16 " " H 6800 2655 50  0001 L CNN "Status"
+F 17 "0.062W" H 6800 2580 50  0001 L CNN "Power"
+F 18 "±200ppm/°C" H 6800 2505 50  0001 L CNN "TC"
+F 19 "±1%" H 6800 2430 50  0001 L CNN "Tolerance"
+F 20 " " H 6800 2355 50  0001 L CNN "Voltage"
+F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 2280 50  0001 L CNN "Part Description"
+F 22 "YAGEO" H 6800 2205 50  0001 L CNN "Manufacturer"
+F 23 "TC164-FR-0733RL" H 6800 2130 50  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 2055 50  0001 L CNN "Case"
+F 25 "Yes" H 6800 1980 50  0001 L CNN "Mounted"
+F 26 "No" H 6800 1905 50  0001 L CNN "PressFit"
+F 27 "No" H 6800 1830 50  0001 L CNN "Socket"
+F 28 " " H 6800 1755 50  0001 L CNN "Sense Comment"
+F 29 "Yes" H 6800 1680 50  0001 L CNN "SMD"
+F 30 " " H 6800 1605 50  0001 L CNN "Status Comment"
+F 31 "0.7mm" H 6800 1530 50  0001 L CNN "ComponentHeight"
+F 32 " " H 6800 1455 50  0001 L CNN "Manufacturer1 Example"
+F 33 " " H 6800 1380 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 " " H 6800 1305 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 1230 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM MR" H 6800 1155 50  0001 L CNN "Author"
+F 37 "04/08/16 00:00:00" H 6800 1080 50  0001 L CNN "CreateDate"
+F 38 "05/03/17 00:00:00" H 6800 1005 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistor Networks SMD" H 6800 930 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 6800 855 50  0001 L CNN "Library Name"
+F 41 "Networks SMD" H 6800 780 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 705 50  0001 L CNN "License"
+	2    6800 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -478,24 +478,20 @@ Wire Wire Line
 	6800 4200 6450 4200
 Wire Wire Line
 	6450 4100 6800 4100
-Text Label 7200 3300 0    50   ~ 0
-ADC_D1
 Text Label 7200 3400 0    50   ~ 0
-ADC_D2
+ADC_D1
 Text Label 7200 3500 0    50   ~ 0
-ADC_D3
+ADC_D2
 Text Label 7200 3600 0    50   ~ 0
-ADC_D4
+ADC_D3
 Text Label 7200 3700 0    50   ~ 0
-ADC_D5
+ADC_D4
 Text Label 7200 3800 0    50   ~ 0
-ADC_D6
+ADC_D5
 Text Label 7200 3900 0    50   ~ 0
-ADC_D7
+ADC_D6
 Text Label 7200 4000 0    50   ~ 0
-ADC_D8
-Wire Wire Line
-	7500 3300 7100 3300
+ADC_D7
 Wire Wire Line
 	7500 3400 7100 3400
 Wire Wire Line
@@ -508,8 +504,6 @@ Wire Wire Line
 	7500 3800 7100 3800
 Wire Wire Line
 	7500 3900 7100 3900
-Wire Wire Line
-	7500 4000 7100 4000
 Entry Wire Line
 	7500 3400 7600 3300
 Entry Wire Line
@@ -524,14 +518,12 @@ Entry Wire Line
 	7500 3900 7600 3800
 Entry Wire Line
 	7500 4000 7600 3900
-Text Label 7650 3200 0    50   ~ 0
-ADC_D[0..9]
 Entry Wire Line
 	7500 3300 7600 3200
 Wire Bus Line
 	7600 3200 8200 3200
 Text HLabel 8200 3200 2    50   Output ~ 0
-ADC_D[0..9]
+ADC_D[0..7]
 Wire Wire Line
 	7100 4100 8200 4100
 Wire Wire Line
@@ -555,151 +547,151 @@ ADC_REFIO
 $Comp
 L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN1
 U 3 1 5CE52730
-P 6800 3500
-F 0 "RN1" H 6950 4436 50  0000 C CNN
-F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3305 50  0001 L CNN
-F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3230 50  0001 L CNN
-F 3 "" H 6800 3155 50  0001 L CNN
-F 4 "33" H 7150 4445 50  0000 C CNN "Val"
-F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3080 50  0001 L CNN "Part Number"
-F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3005 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6800 2930 50  0001 L CNN "Library Path"
-F 8 "33" H 6800 2855 50  0001 L CNN "Comment"
-F 9 "Standard" H 6800 2780 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6800 2705 50  0001 L CNN "Component Type"
-F 11 " " H 6800 2630 50  0001 L CNN "PackageDescription"
-F 12 "8" H 6800 2555 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2480 50  0001 L CNN "Footprint Path"
-F 14 "RN_YAGEO_TC164" H 6800 2405 50  0001 L CNN "Footprint Ref"
-F 15 "No" H 6800 2330 50  0001 L CNN "Sense"
-F 16 " " H 6800 2255 50  0001 L CNN "Status"
-F 17 "0.062W" H 6800 2180 50  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 6800 2105 50  0001 L CNN "TC"
-F 19 "±1%" H 6800 2030 50  0001 L CNN "Tolerance"
-F 20 " " H 6800 1955 50  0001 L CNN "Voltage"
-F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1880 50  0001 L CNN "Part Description"
-F 22 "YAGEO" H 6800 1805 50  0001 L CNN "Manufacturer"
-F 23 "TC164-FR-0733RL" H 6800 1730 50  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 6800 1655 50  0001 L CNN "Case"
-F 25 "Yes" H 6800 1580 50  0001 L CNN "Mounted"
-F 26 "No" H 6800 1505 50  0001 L CNN "PressFit"
-F 27 "No" H 6800 1430 50  0001 L CNN "Socket"
-F 28 " " H 6800 1355 50  0001 L CNN "Sense Comment"
-F 29 "Yes" H 6800 1280 50  0001 L CNN "SMD"
-F 30 " " H 6800 1205 50  0001 L CNN "Status Comment"
-F 31 "0.7mm" H 6800 1130 50  0001 L CNN "ComponentHeight"
-F 32 " " H 6800 1055 50  0001 L CNN "Manufacturer1 Example"
-F 33 " " H 6800 980 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 " " H 6800 905 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 830 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM MR" H 6800 755 50  0001 L CNN "Author"
-F 37 "04/08/16 00:00:00" H 6800 680 50  0001 L CNN "CreateDate"
-F 38 "05/03/17 00:00:00" H 6800 605 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistor Networks SMD" H 6800 530 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 6800 455 50  0001 L CNN "Library Name"
-F 41 "Networks SMD" H 6800 380 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 305 50  0001 L CNN "License"
-	3    6800 3500
+P 6800 3400
+F 0 "RN1" H 6950 4336 50  0000 C CNN
+F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3205 50  0001 L CNN
+F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3130 50  0001 L CNN
+F 3 "" H 6800 3055 50  0001 L CNN
+F 4 "33" H 7150 4345 50  0000 C CNN "Val"
+F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 2980 50  0001 L CNN "Part Number"
+F 6 "RN DIL8_4xR_Isolated_1%" H 6800 2905 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 2830 50  0001 L CNN "Library Path"
+F 8 "33" H 6800 2755 50  0001 L CNN "Comment"
+F 9 "Standard" H 6800 2680 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 2605 50  0001 L CNN "Component Type"
+F 11 " " H 6800 2530 50  0001 L CNN "PackageDescription"
+F 12 "8" H 6800 2455 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2380 50  0001 L CNN "Footprint Path"
+F 14 "RN_YAGEO_TC164" H 6800 2305 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 6800 2230 50  0001 L CNN "Sense"
+F 16 " " H 6800 2155 50  0001 L CNN "Status"
+F 17 "0.062W" H 6800 2080 50  0001 L CNN "Power"
+F 18 "±200ppm/°C" H 6800 2005 50  0001 L CNN "TC"
+F 19 "±1%" H 6800 1930 50  0001 L CNN "Tolerance"
+F 20 " " H 6800 1855 50  0001 L CNN "Voltage"
+F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1780 50  0001 L CNN "Part Description"
+F 22 "YAGEO" H 6800 1705 50  0001 L CNN "Manufacturer"
+F 23 "TC164-FR-0733RL" H 6800 1630 50  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 1555 50  0001 L CNN "Case"
+F 25 "Yes" H 6800 1480 50  0001 L CNN "Mounted"
+F 26 "No" H 6800 1405 50  0001 L CNN "PressFit"
+F 27 "No" H 6800 1330 50  0001 L CNN "Socket"
+F 28 " " H 6800 1255 50  0001 L CNN "Sense Comment"
+F 29 "Yes" H 6800 1180 50  0001 L CNN "SMD"
+F 30 " " H 6800 1105 50  0001 L CNN "Status Comment"
+F 31 "0.7mm" H 6800 1030 50  0001 L CNN "ComponentHeight"
+F 32 " " H 6800 955 50  0001 L CNN "Manufacturer1 Example"
+F 33 " " H 6800 880 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 " " H 6800 805 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 730 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM MR" H 6800 655 50  0001 L CNN "Author"
+F 37 "04/08/16 00:00:00" H 6800 580 50  0001 L CNN "CreateDate"
+F 38 "05/03/17 00:00:00" H 6800 505 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistor Networks SMD" H 6800 430 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 6800 355 50  0001 L CNN "Library Name"
+F 41 "Networks SMD" H 6800 280 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 205 50  0001 L CNN "License"
+	3    6800 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN1
 U 1 1 5CE4CA68
-P 6800 3300
-F 0 "RN1" H 6950 4236 50  0000 C CNN
-F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3105 50  0001 L CNN
-F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3030 50  0001 L CNN
-F 3 "" H 6800 2955 50  0001 L CNN
-F 4 "33" H 7150 4245 50  0000 C CNN "Val"
-F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 2880 50  0001 L CNN "Part Number"
-F 6 "RN DIL8_4xR_Isolated_1%" H 6800 2805 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6800 2730 50  0001 L CNN "Library Path"
-F 8 "33" H 6800 2655 50  0001 L CNN "Comment"
-F 9 "Standard" H 6800 2580 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6800 2505 50  0001 L CNN "Component Type"
-F 11 " " H 6800 2430 50  0001 L CNN "PackageDescription"
-F 12 "8" H 6800 2355 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2280 50  0001 L CNN "Footprint Path"
-F 14 "RN_YAGEO_TC164" H 6800 2205 50  0001 L CNN "Footprint Ref"
-F 15 "No" H 6800 2130 50  0001 L CNN "Sense"
-F 16 " " H 6800 2055 50  0001 L CNN "Status"
-F 17 "0.062W" H 6800 1980 50  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 6800 1905 50  0001 L CNN "TC"
-F 19 "±1%" H 6800 1830 50  0001 L CNN "Tolerance"
-F 20 " " H 6800 1755 50  0001 L CNN "Voltage"
-F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1680 50  0001 L CNN "Part Description"
-F 22 "YAGEO" H 6800 1605 50  0001 L CNN "Manufacturer"
-F 23 "TC164-FR-0733RL" H 6800 1530 50  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 6800 1455 50  0001 L CNN "Case"
-F 25 "Yes" H 6800 1380 50  0001 L CNN "Mounted"
-F 26 "No" H 6800 1305 50  0001 L CNN "PressFit"
-F 27 "No" H 6800 1230 50  0001 L CNN "Socket"
-F 28 " " H 6800 1155 50  0001 L CNN "Sense Comment"
-F 29 "Yes" H 6800 1080 50  0001 L CNN "SMD"
-F 30 " " H 6800 1005 50  0001 L CNN "Status Comment"
-F 31 "0.7mm" H 6800 930 50  0001 L CNN "ComponentHeight"
-F 32 " " H 6800 855 50  0001 L CNN "Manufacturer1 Example"
-F 33 " " H 6800 780 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 " " H 6800 705 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 630 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM MR" H 6800 555 50  0001 L CNN "Author"
-F 37 "04/08/16 00:00:00" H 6800 480 50  0001 L CNN "CreateDate"
-F 38 "05/03/17 00:00:00" H 6800 405 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistor Networks SMD" H 6800 330 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 6800 255 50  0001 L CNN "Library Name"
-F 41 "Networks SMD" H 6800 180 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 105 50  0001 L CNN "License"
-	1    6800 3300
+P 6800 3600
+F 0 "RN1" H 6950 4536 50  0000 C CNN
+F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3405 50  0001 L CNN
+F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3330 50  0001 L CNN
+F 3 "" H 6800 3255 50  0001 L CNN
+F 4 "33" H 7150 4545 50  0000 C CNN "Val"
+F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3180 50  0001 L CNN "Part Number"
+F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3105 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 3030 50  0001 L CNN "Library Path"
+F 8 "33" H 6800 2955 50  0001 L CNN "Comment"
+F 9 "Standard" H 6800 2880 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 2805 50  0001 L CNN "Component Type"
+F 11 " " H 6800 2730 50  0001 L CNN "PackageDescription"
+F 12 "8" H 6800 2655 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2580 50  0001 L CNN "Footprint Path"
+F 14 "RN_YAGEO_TC164" H 6800 2505 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 6800 2430 50  0001 L CNN "Sense"
+F 16 " " H 6800 2355 50  0001 L CNN "Status"
+F 17 "0.062W" H 6800 2280 50  0001 L CNN "Power"
+F 18 "±200ppm/°C" H 6800 2205 50  0001 L CNN "TC"
+F 19 "±1%" H 6800 2130 50  0001 L CNN "Tolerance"
+F 20 " " H 6800 2055 50  0001 L CNN "Voltage"
+F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 1980 50  0001 L CNN "Part Description"
+F 22 "YAGEO" H 6800 1905 50  0001 L CNN "Manufacturer"
+F 23 "TC164-FR-0733RL" H 6800 1830 50  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 1755 50  0001 L CNN "Case"
+F 25 "Yes" H 6800 1680 50  0001 L CNN "Mounted"
+F 26 "No" H 6800 1605 50  0001 L CNN "PressFit"
+F 27 "No" H 6800 1530 50  0001 L CNN "Socket"
+F 28 " " H 6800 1455 50  0001 L CNN "Sense Comment"
+F 29 "Yes" H 6800 1380 50  0001 L CNN "SMD"
+F 30 " " H 6800 1305 50  0001 L CNN "Status Comment"
+F 31 "0.7mm" H 6800 1230 50  0001 L CNN "ComponentHeight"
+F 32 " " H 6800 1155 50  0001 L CNN "Manufacturer1 Example"
+F 33 " " H 6800 1080 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 " " H 6800 1005 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 930 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM MR" H 6800 855 50  0001 L CNN "Author"
+F 37 "04/08/16 00:00:00" H 6800 780 50  0001 L CNN "CreateDate"
+F 38 "05/03/17 00:00:00" H 6800 705 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistor Networks SMD" H 6800 630 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 6800 555 50  0001 L CNN "Library Name"
+F 41 "Networks SMD" H 6800 480 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 405 50  0001 L CNN "License"
+	1    6800 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L ResistorNetworks_SMD:RN_33R_YAGEO_TC164-FR-0733RL RN2
 U 4 1 5CE571C5
-P 6800 4000
-F 0 "RN2" H 6950 4936 50  0000 C CNN
-F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3805 50  0001 L CNN
-F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3730 50  0001 L CNN
-F 3 "" H 6800 3655 50  0001 L CNN
-F 4 "33" H 7150 4945 50  0000 C CNN "Val"
-F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3580 50  0001 L CNN "Part Number"
-F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3505 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6800 3430 50  0001 L CNN "Library Path"
-F 8 "33" H 6800 3355 50  0001 L CNN "Comment"
-F 9 "Standard" H 6800 3280 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6800 3205 50  0001 L CNN "Component Type"
-F 11 " " H 6800 3130 50  0001 L CNN "PackageDescription"
-F 12 "8" H 6800 3055 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2980 50  0001 L CNN "Footprint Path"
-F 14 "RN_YAGEO_TC164" H 6800 2905 50  0001 L CNN "Footprint Ref"
-F 15 "No" H 6800 2830 50  0001 L CNN "Sense"
-F 16 " " H 6800 2755 50  0001 L CNN "Status"
-F 17 "0.062W" H 6800 2680 50  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 6800 2605 50  0001 L CNN "TC"
-F 19 "±1%" H 6800 2530 50  0001 L CNN "Tolerance"
-F 20 " " H 6800 2455 50  0001 L CNN "Voltage"
-F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 2380 50  0001 L CNN "Part Description"
-F 22 "YAGEO" H 6800 2305 50  0001 L CNN "Manufacturer"
-F 23 "TC164-FR-0733RL" H 6800 2230 50  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 6800 2155 50  0001 L CNN "Case"
-F 25 "Yes" H 6800 2080 50  0001 L CNN "Mounted"
-F 26 "No" H 6800 2005 50  0001 L CNN "PressFit"
-F 27 "No" H 6800 1930 50  0001 L CNN "Socket"
-F 28 " " H 6800 1855 50  0001 L CNN "Sense Comment"
-F 29 "Yes" H 6800 1780 50  0001 L CNN "SMD"
-F 30 " " H 6800 1705 50  0001 L CNN "Status Comment"
-F 31 "0.7mm" H 6800 1630 50  0001 L CNN "ComponentHeight"
-F 32 " " H 6800 1555 50  0001 L CNN "Manufacturer1 Example"
-F 33 " " H 6800 1480 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 " " H 6800 1405 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 1330 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM MR" H 6800 1255 50  0001 L CNN "Author"
-F 37 "04/08/16 00:00:00" H 6800 1180 50  0001 L CNN "CreateDate"
-F 38 "05/03/17 00:00:00" H 6800 1105 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistor Networks SMD" H 6800 1030 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 6800 955 50  0001 L CNN "Library Name"
-F 41 "Networks SMD" H 6800 880 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 805 50  0001 L CNN "License"
-	4    6800 4000
+P 6800 3700
+F 0 "RN2" H 6950 4636 50  0000 C CNN
+F 1 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3505 50  0001 L CNN
+F 2 "Networks SMD:RN_YAGEO_TC164" H 6800 3430 50  0001 L CNN
+F 3 "" H 6800 3355 50  0001 L CNN
+F 4 "33" H 7150 4645 50  0000 C CNN "Val"
+F 5 "RN_33R_YAGEO_TC164-FR-0733RL" H 6800 3280 50  0001 L CNN "Part Number"
+F 6 "RN DIL8_4xR_Isolated_1%" H 6800 3205 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 3130 50  0001 L CNN "Library Path"
+F 8 "33" H 6800 3055 50  0001 L CNN "Comment"
+F 9 "Standard" H 6800 2980 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 2905 50  0001 L CNN "Component Type"
+F 11 " " H 6800 2830 50  0001 L CNN "PackageDescription"
+F 12 "8" H 6800 2755 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Networks SMD.PcbLib" H 6800 2680 50  0001 L CNN "Footprint Path"
+F 14 "RN_YAGEO_TC164" H 6800 2605 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 6800 2530 50  0001 L CNN "Sense"
+F 16 " " H 6800 2455 50  0001 L CNN "Status"
+F 17 "0.062W" H 6800 2380 50  0001 L CNN "Power"
+F 18 "±200ppm/°C" H 6800 2305 50  0001 L CNN "TC"
+F 19 "±1%" H 6800 2230 50  0001 L CNN "Tolerance"
+F 20 " " H 6800 2155 50  0001 L CNN "Voltage"
+F 21 "Chip Resistor Array , 4 Isolated Resistors (Side Concave Terminal), TC164 Series" H 6800 2080 50  0001 L CNN "Part Description"
+F 22 "YAGEO" H 6800 2005 50  0001 L CNN "Manufacturer"
+F 23 "TC164-FR-0733RL" H 6800 1930 50  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 1855 50  0001 L CNN "Case"
+F 25 "Yes" H 6800 1780 50  0001 L CNN "Mounted"
+F 26 "No" H 6800 1705 50  0001 L CNN "PressFit"
+F 27 "No" H 6800 1630 50  0001 L CNN "Socket"
+F 28 " " H 6800 1555 50  0001 L CNN "Sense Comment"
+F 29 "Yes" H 6800 1480 50  0001 L CNN "SMD"
+F 30 " " H 6800 1405 50  0001 L CNN "Status Comment"
+F 31 "0.7mm" H 6800 1330 50  0001 L CNN "ComponentHeight"
+F 32 " " H 6800 1255 50  0001 L CNN "Manufacturer1 Example"
+F 33 " " H 6800 1180 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 " " H 6800 1105 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\RN_YAGEO_TC164.pdf" H 6800 1030 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM MR" H 6800 955 50  0001 L CNN "Author"
+F 37 "04/08/16 00:00:00" H 6800 880 50  0001 L CNN "CreateDate"
+F 38 "05/03/17 00:00:00" H 6800 805 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistor Networks SMD" H 6800 730 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 6800 655 50  0001 L CNN "Library Name"
+F 41 "Networks SMD" H 6800 580 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 505 50  0001 L CNN "License"
+	4    6800 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -721,7 +713,7 @@ AR Path="/5CDC63FE/5CE86990" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE86990" Ref="C112"  Part="1" 
 F 0 "C112" V 4146 2940 50  0000 R CNN
 F 1 "CC0603_100NF_50V_10%_X7R" H 3550 2640 60  0001 L CNN
-F 2 "CAPC1608X87N" H 3550 1830 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 3550 1830 60  0001 L CNN
 F 3 "" H 3550 2460 60  0001 L CNN
 F 4 "100nF" V 4055 2990 50  0000 R CNN "~"
 F 5 "CC0603_100NF_50V_10%_X7R" H 3550 2370 60  0001 L CNN "Part Number"
@@ -830,7 +822,7 @@ AR Path="/5CDC63FE/5CE86993" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE86993" Ref="C111"  Part="1" 
 F 0 "C111" V 3896 2940 50  0000 R CNN
 F 1 "CC0603_10NF_50V_5%_C0G" H 3300 2640 60  0001 L CNN
-F 2 "CAPC1608X87N" H 3300 1830 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 3300 1830 60  0001 L CNN
 F 3 "" H 3300 2460 60  0001 L CNN
 F 4 "10nF" V 3805 2990 50  0000 R CNN "~"
 F 5 "CC0603_10NF_50V_5%_C0G" H 3300 2370 60  0001 L CNN "Part Number"
@@ -892,7 +884,7 @@ AR Path="/5CDC63FE/5CE89F0A" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE89F0A" Ref="C114"  Part="1" 
 F 0 "C114" V 4646 2940 50  0000 R CNN
 F 1 "CC0603_100NF_50V_10%_X7R" H 4050 2640 60  0001 L CNN
-F 2 "CAPC1608X87N" H 4050 1830 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 4050 1830 60  0001 L CNN
 F 3 "" H 4050 2460 60  0001 L CNN
 F 4 "100nF" V 4555 2990 50  0000 R CNN "~"
 F 5 "CC0603_100NF_50V_10%_X7R" H 4050 2370 60  0001 L CNN "Part Number"
@@ -943,7 +935,7 @@ AR Path="/5CDC63FE/5CE89F39" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE89F39" Ref="C113"  Part="1" 
 F 0 "C113" V 4396 2940 50  0000 R CNN
 F 1 "CC0603_10NF_50V_5%_C0G" H 3800 2640 60  0001 L CNN
-F 2 "CAPC1608X87N" H 3800 1830 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 3800 1830 60  0001 L CNN
 F 3 "" H 3800 2460 60  0001 L CNN
 F 4 "10nF" V 4305 2990 50  0000 R CNN "~"
 F 5 "CC0603_10NF_50V_5%_C0G" H 3800 2370 60  0001 L CNN "Part Number"
@@ -1033,7 +1025,7 @@ AR Path="/5CDC63FE/5CE90200" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE90200" Ref="C116"  Part="1" 
 F 0 "C116" V 6946 2090 50  0000 R CNN
 F 1 "CC0603_100NF_50V_10%_X7R" H 6350 1790 60  0001 L CNN
-F 2 "CAPC1608X87N" H 6350 980 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 6350 980 60  0001 L CNN
 F 3 "" H 6350 1610 60  0001 L CNN
 F 4 "100nF" V 6855 2140 50  0000 R CNN "~"
 F 5 "CC0603_100NF_50V_10%_X7R" H 6350 1520 60  0001 L CNN "Part Number"
@@ -1093,7 +1085,7 @@ AR Path="/5CDC63FE/5CE90237" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE90237" Ref="C117"  Part="1" 
 F 0 "C117" V 7196 2090 50  0000 R CNN
 F 1 "CC0603_10NF_50V_5%_C0G" H 6600 1790 60  0001 L CNN
-F 2 "CAPC1608X87N" H 6600 980 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 6600 980 60  0001 L CNN
 F 3 "" H 6600 1610 60  0001 L CNN
 F 4 "10nF" V 7105 2140 50  0000 R CNN "~"
 F 5 "CC0603_10NF_50V_5%_C0G" H 6600 1520 60  0001 L CNN "Part Number"
@@ -1145,7 +1137,7 @@ AR Path="/5CDC63FE/5CE90269" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE90269" Ref="C115"  Part="1" 
 F 0 "C115" V 6696 2090 50  0000 R CNN
 F 1 "CC0603_10NF_50V_5%_C0G" H 6100 1790 60  0001 L CNN
-F 2 "CAPC1608X87N" H 6100 980 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 6100 980 60  0001 L CNN
 F 3 "" H 6100 1610 60  0001 L CNN
 F 4 "10nF" V 6605 2140 50  0000 R CNN "~"
 F 5 "CC0603_10NF_50V_5%_C0G" H 6100 1520 60  0001 L CNN "Part Number"
@@ -1204,7 +1196,7 @@ AR Path="/5CDC63FE/5CE902A1" Ref="C?"  Part="1"
 AR Path="/5CDC5029/5CE902A1" Ref="C118"  Part="1" 
 F 0 "C118" V 7446 2090 50  0000 R CNN
 F 1 "CC0603_100NF_50V_10%_X7R" H 6850 1790 60  0001 L CNN
-F 2 "CAPC1608X87N" H 6850 980 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 6850 980 60  0001 L CNN
 F 3 "" H 6850 1610 60  0001 L CNN
 F 4 "100nF" V 7355 2140 50  0000 R CNN "~"
 F 5 "CC0603_100NF_50V_10%_X7R" H 6850 1520 60  0001 L CNN "Part Number"
@@ -1410,7 +1402,7 @@ AR Path="/5CDEDE64/5CE08972" Ref="TP?"  Part="1"
 AR Path="/5CDC5029/5CE08972" Ref="TP7"  Part="1" 
 F 0 "TP7" H 2685 3811 50  0000 C CNN
 F 1 "CH1-" H 2685 3712 60  0000 C CNN
-F 2 "TPS127" H 2700 2620 60  0001 L CNN
+F 2 "Pads:TPS127" H 2700 2620 60  0001 L CNN
 F 3 "" H 2700 3250 60  0001 L CNN
 F 4 "Test Point" H 2700 3160 60  0001 L CNN "Field4"
 F 5 "SMD_PAD_1.27X1.27MM" H 2700 3160 60  0001 L CNN "Part Number"
@@ -1469,7 +1461,7 @@ AR Path="/5CDEDE64/5CE08E49" Ref="TP?"  Part="1"
 AR Path="/5CDC5029/5CE08E49" Ref="TP9"  Part="1" 
 F 0 "TP9" H 2985 3811 50  0000 C CNN
 F 1 "CH1+" H 2985 3712 60  0000 C CNN
-F 2 "TPS127" H 3000 2620 60  0001 L CNN
+F 2 "Pads:TPS127" H 3000 2620 60  0001 L CNN
 F 3 "" H 3000 3250 60  0001 L CNN
 F 4 "Test Point" H 3000 3160 60  0001 L CNN "Field4"
 F 5 "SMD_PAD_1.27X1.27MM" H 3000 3160 60  0001 L CNN "Part Number"
@@ -1528,7 +1520,7 @@ AR Path="/5CDEDE64/5CE0B480" Ref="TP?"  Part="1"
 AR Path="/5CDC5029/5CE0B480" Ref="TP8"  Part="1" 
 F 0 "TP8" H 2685 4511 50  0000 C CNN
 F 1 "CH2-" H 2685 4412 60  0000 C CNN
-F 2 "TPS127" H 2700 3320 60  0001 L CNN
+F 2 "Pads:TPS127" H 2700 3320 60  0001 L CNN
 F 3 "" H 2700 3950 60  0001 L CNN
 F 4 "Test Point" H 2700 3860 60  0001 L CNN "Field4"
 F 5 "SMD_PAD_1.27X1.27MM" H 2700 3860 60  0001 L CNN "Part Number"
@@ -1581,7 +1573,7 @@ AR Path="/5CDEDE64/5CE0B4B1" Ref="TP?"  Part="1"
 AR Path="/5CDC5029/5CE0B4B1" Ref="TP10"  Part="1" 
 F 0 "TP10" H 2985 4511 50  0000 C CNN
 F 1 "CH2+" H 2985 4412 60  0000 C CNN
-F 2 "TPS127" H 3000 3320 60  0001 L CNN
+F 2 "Pads:TPS127" H 3000 3320 60  0001 L CNN
 F 3 "" H 3000 3950 60  0001 L CNN
 F 4 "Test Point" H 3000 3860 60  0001 L CNN "Field4"
 F 5 "SMD_PAD_1.27X1.27MM" H 3000 3860 60  0001 L CNN "Part Number"
@@ -1630,6 +1622,46 @@ Wire Wire Line
 	3000 4000 4350 4000
 Wire Wire Line
 	2700 4100 2450 4100
+Text Notes 8100 7625 0    50   ~ 0
+11{slash}05{slash}2019\n
+Text Notes 7350 7500 0    50   ~ 0
+OpenDSO - Analog Section - ADC\n
+Text Notes 7000 6750 0    50   ~ 0
+Design: Robert Jaszczyk & Marek Skalski\n
+Text Notes 7000 6650 0    50   ~ 0
+OpenDSO - Analog Section\n
+Text Notes 7000 6850 0    50   ~ 0
+Drawn By & Review: T. Wlostowski\n
+Wire Notes Line
+	4850 600  4850 1250
+Wire Notes Line
+	600  1250 600  600 
+Wire Notes Line
+	4850 1250 600  1250
+Text Notes 650  1150 0    50   ~ 0
+Copyright M.Skalski & R.Jaszczyk 2019.\nThis documentation describes Open Hardware and is licensed under the CERN OHL v.1.2.\nYou may redistribute and modify this under the terms of the CERN OHL v.1.2. (http:{slash}{slash}ohwr.org{slash}CERNOHL).\nThis documentation is distributed ANY EXPRESS OR IMPLIED WARRANTY,\nINCLUDING OF MERCHANTABILITY, SATISFACTORY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN OHL v.1.2 for applicable conditions.
+Wire Notes Line
+	600  600  4850 600 
+Wire Wire Line
+	7100 4000 7500 4000
+Text Label 7200 3300 0    50   ~ 0
+ADC_D0
+Wire Wire Line
+	7500 3300 7100 3300
+$Comp
+L Power2:PWR_FLAG #FLG0113
+U 1 1 5CEB2E33
+P 4900 2400
+F 0 "#FLG0113" H 4900 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 4900 2573 50  0000 C CNN
+F 2 "" H 4900 2400 50  0001 C CNN
+F 3 "" H 4900 2400 50  0001 C CNN
+	1    4900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2500 4900 2400
+Connection ~ 4900 2500
 Wire Bus Line
 	7600 3200 7600 3900
 $EndSCHEMATC

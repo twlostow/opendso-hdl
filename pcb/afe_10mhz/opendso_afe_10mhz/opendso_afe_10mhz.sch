@@ -14,8 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 12200 10900 0    50   ~ 0
-OpenDSO - Analog Section\n
+Text Notes 12200 10925 0    50   ~ 0
+OpenDSO - Analog Section - Top Level\n
 Text Notes 12950 11050 0    50   ~ 0
 11{slash}05{slash}2019\n
 Text Label 5950 5700 0    50   ~ 0
@@ -54,7 +54,7 @@ Wire Wire Line
 	5900 5100 6650 5100
 Wire Wire Line
 	5900 5200 6650 5200
-Text Label 4400 3600 0    50   ~ 0
+Text Label 4350 4300 0    50   ~ 0
 CH2_VOFFSET_FB
 Wire Wire Line
 	5900 4500 6650 4500
@@ -211,17 +211,6 @@ F 3 "" H 1950 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3950 5700
-$Comp
-L Power2:+2V5A #PWR03
-U 1 1 5CE46947
-P 1850 5750
-F 0 "#PWR03" H 1850 5600 50  0001 C CNN
-F 1 "+2V5A" H 1865 5923 50  0000 C CNN
-F 2 "" H 1850 5750 50  0001 C CNN
-F 3 "" H 1850 5750 50  0001 C CNN
-	1    1850 5750
-	1    0    0    -1  
-$EndComp
 Connection ~ 1950 5900
 Wire Wire Line
 	1850 5900 1850 5750
@@ -274,7 +263,7 @@ AR Path="/5CDEDE64/5CE44481" Ref="C?"  Part="1"
 AR Path="/5CE44481" Ref="C2"  Part="1" 
 F 0 "C2" V 2546 6190 50  0000 R CNN
 F 1 "CC0603_10NF_50V_5%_C0G" H 2350 6040 60  0001 L CNN
-F 2 "CAPC1608X87N" H 2350 5230 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 2350 5230 60  0001 L CNN
 F 3 "" H 2350 5860 60  0001 L CNN
 F 4 "10nF" V 2455 6190 50  0000 R CNN "~"
 F 5 "CC0603_10NF_50V_5%_C0G" H 2350 5770 60  0001 L CNN "Part Number"
@@ -345,9 +334,9 @@ Wire Wire Line
 Connection ~ 2750 5400
 Text Label 5950 4300 0    50   ~ 0
 CH1_SSR_DC
-Text Notes 11850 10200 0    50   ~ 0
+Text Notes 11850 10175 0    50   ~ 0
 Design: Robert Jaszczyk & Marek Skalski\n
-Text Notes 11850 10100 0    50   ~ 0
+Text Notes 11850 10075 0    50   ~ 0
 OpenDSO - Analog Section\n
 $Sheet
 S 2550 1300 1700 1400
@@ -385,7 +374,7 @@ F2 "CH1+" I L 5100 1600 50
 F3 "CH1-" I L 5100 1700 50 
 F4 "CH2+" I L 5100 3300 50 
 F5 "CH2-" I L 5100 3400 50 
-F6 "ADC_D[0..9]" O R 6200 1400 50 
+F6 "ADC_D[0..7]" O R 6200 1400 50 
 F7 "ADC_DOR" O R 6200 1500 50 
 F8 "ADC_DCLK" O R 6200 1600 50 
 F9 "CH1_VCM" O L 5100 1400 50 
@@ -406,11 +395,11 @@ AR Path="/5CE03C6E/5CE44480" Ref="C?"  Part="1"
 AR Path="/5CDC63FE/5CE44480" Ref="C?"  Part="1" 
 AR Path="/5CDEDE64/5CE44480" Ref="C?"  Part="1" 
 AR Path="/5CE44480" Ref="C1"  Part="1" 
-F 0 "C1" V 2146 6190 50  0000 R CNN
+F 0 "C1" V 2146 6409 50  0000 L CNN
 F 1 "CC0603_100NF_50V_10%_X7R" H 1950 6040 60  0001 L CNN
-F 2 "CAPC1608X87N" H 1950 5230 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X87N" H 1950 5230 60  0001 L CNN
 F 3 "" H 1950 5860 60  0001 L CNN
-F 4 "100nF" V 2055 6190 50  0000 R CNN "~"
+F 4 "100nF" V 2055 6409 50  0000 L CNN "~"
 F 5 "CC0603_100NF_50V_10%_X7R" H 1950 5770 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 1950 5680 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 1950 5590 60  0001 L CNN "Library Path"
@@ -456,7 +445,7 @@ U 1 1 5CDF7E00
 P 1500 1400
 F 0 "J1" H 1382 1575 50  0000 C CNN
 F 1 "SAMTEC_HDBNC-J-P-GN-ST-TH1" H 1500 1125 50  0001 L CNN
-F 2 "SAMTEC THD:SAMTEC_HDBNC-J-P-GN-ST-TH1" H 1500 1050 50  0001 L CNN
+F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 1500 1050 50  0001 L CNN
 F 3 "" H 1500 975 50  0001 L CNN
 F 4 "BNC" H 1500 675 50  0001 L CNN "Comment"
 F 5 "SAMTEC_HDBNC-J-P-GN-ST-TH1" H 1500 900 50  0001 L CNN "Part Number"
@@ -503,8 +492,8 @@ $Comp
 L Analog_Interface:MCP47CVB02 IC1
 U 1 1 5CE330E0
 P 3050 5000
-F 0 "IC1" H 3400 5073 50  0000 C CNN
-F 1 "MCP47CVB02" H 3050 3825 50  0001 L CNN
+F 0 "IC1" H 3400 5165 50  0000 C CNN
+F 1 "MCP47CVB02" H 3400 5074 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P490X110-8N" H 3050 3750 50  0001 L CNN
 F 3 "" H 3050 3675 50  0001 L CNN
 F 4 "MCP47CVB02" H 3050 3600 50  0001 L CNN "Part Number"
@@ -562,7 +551,7 @@ U 1 1 5CDF2539
 P 1500 3100
 F 0 "J2" H 1382 3275 50  0000 C CNN
 F 1 "SAMTEC_HDBNC-J-P-GN-ST-TH1" H 1500 2825 50  0001 L CNN
-F 2 "SAMTEC THD:SAMTEC_HDBNC-J-P-GN-ST-TH1" H 1500 2750 50  0001 L CNN
+F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 1500 2750 50  0001 L CNN
 F 3 "" H 1500 2675 50  0001 L CNN
 F 4 "BNC" H 1500 2375 50  0001 L CNN "Comment"
 F 5 "SAMTEC_HDBNC-J-P-GN-ST-TH1" H 1500 2600 50  0001 L CNN "Part Number"
@@ -737,7 +726,7 @@ $Comp
 L Resistors_SMD:R0603_220R_1%_0.1W_100PPM R1
 U 1 1 5CE26A04
 P 9450 3750
-F 0 "R1" H 9400 3847 50  0000 C CNN
+F 0 "R1" H 9600 3947 50  0000 C CNN
 F 1 "R0603_220R_1%_0.1W_100PPM" H 9450 3555 50  0001 L CNN
 F 2 "Resistors SMD:RESC1608X55N" H 9450 3480 50  0001 L CNN
 F 3 "" H 9450 3405 50  0001 L CNN
@@ -885,11 +874,11 @@ $Comp
 L Resistors_SMD:R0603_220R_1%_0.1W_100PPM R2
 U 1 1 5CE2B25A
 P 9450 3950
-F 0 "R2" H 9450 4047 50  0000 C CNN
+F 0 "R2" H 9600 3845 50  0000 C CNN
 F 1 "R0603_220R_1%_0.1W_100PPM" H 9450 3755 50  0001 L CNN
 F 2 "Resistors SMD:RESC1608X55N" H 9450 3680 50  0001 L CNN
 F 3 "" H 9450 3605 50  0001 L CNN
-F 4 "220" H 9600 4056 50  0000 C CNN "Val"
+F 4 "220" H 9600 3754 50  0000 C CNN "Val"
 F 5 "R0603_220R_1%_0.1W_100PPM" H 9450 3530 50  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 9450 3455 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 9450 3380 50  0001 L CNN "Library Path"
@@ -935,7 +924,7 @@ $Comp
 L Resistors_SMD:R0603_220R_1%_0.1W_100PPM R3
 U 1 1 5CE2B3FF
 P 9450 4500
-F 0 "R3" H 9450 4597 50  0000 C CNN
+F 0 "R3" H 9600 4697 50  0000 C CNN
 F 1 "R0603_220R_1%_0.1W_100PPM" H 9450 4305 50  0001 L CNN
 F 2 "Resistors SMD:RESC1608X55N" H 9450 4230 50  0001 L CNN
 F 3 "" H 9450 4155 50  0001 L CNN
@@ -985,11 +974,11 @@ $Comp
 L Resistors_SMD:R0603_220R_1%_0.1W_100PPM R4
 U 1 1 5CE2B680
 P 9450 4700
-F 0 "R4" H 9450 4797 50  0000 C CNN
+F 0 "R4" H 9600 4595 50  0000 C CNN
 F 1 "R0603_220R_1%_0.1W_100PPM" H 9450 4505 50  0001 L CNN
 F 2 "Resistors SMD:RESC1608X55N" H 9450 4430 50  0001 L CNN
 F 3 "" H 9450 4355 50  0001 L CNN
-F 4 "220" H 9600 4806 50  0000 C CNN "Val"
+F 4 "220" H 9600 4504 50  0000 C CNN "Val"
 F 5 "R0603_220R_1%_0.1W_100PPM" H 9450 4280 50  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 9450 4205 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 9450 4130 50  0001 L CNN "Library Path"
@@ -1083,55 +1072,579 @@ Text Label 8400 3200 0    50   ~ 0
 MCU_RESET
 Text Label 8400 3300 0    50   ~ 0
 MCU_IRQ
+Text Notes 11850 10275 0    50   ~ 0
+Drawn By & Review: T. Wlostowski\n
+$Comp
+L Power2:GND #PWR0110
+U 1 1 5CE0F400
+P 11750 9250
+F 0 "#PWR0110" H 11750 9000 50  0001 C CNN
+F 1 "GND" H 11755 9077 50  0000 C CNN
+F 2 "" H 11750 9250 50  0001 C CNN
+F 3 "" H 11750 9250 50  0001 C CNN
+	1    11750 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 1200 11750 1300
+Connection ~ 11750 1300
+Wire Wire Line
+	11750 1300 11750 2000
+Wire Wire Line
+	11550 1500 11550 1400
+Wire Wire Line
+	11550 1400 11450 1400
+Wire Wire Line
+	11450 1400 11450 1300
+Connection ~ 11550 1400
+$Comp
+L Power2:+5VD #PWR0111
+U 1 1 5CE19F76
+P 11450 1300
+F 0 "#PWR0111" H 11450 1150 50  0001 C CNN
+F 1 "+5VD" H 11465 1473 50  0000 C CNN
+F 2 "" H 11450 1300 50  0001 C CNN
+F 3 "" H 11450 1300 50  0001 C CNN
+	1    11450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power2:VDDA #PWR0112
+U 1 1 5CE1A7D5
+P 11200 1300
+F 0 "#PWR0112" H 11200 1150 50  0001 C CNN
+F 1 "VDDA" H 11217 1473 50  0000 C CNN
+F 2 "" H 11200 1300 50  0001 C CNN
+F 3 "" H 11200 1300 50  0001 C CNN
+	1    11200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power2:VSSA #PWR0113
+U 1 1 5CE1AF6E
+P 10950 1300
+F 0 "#PWR0113" H 10950 1150 50  0001 C CNN
+F 1 "VSSA" H 10967 1473 50  0000 C CNN
+F 2 "" H 10950 1300 50  0001 C CNN
+F 3 "" H 10950 1300 50  0001 C CNN
+	1    10950 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 1600 11200 1300
+Wire Wire Line
+	11550 1700 11550 1600
+Connection ~ 11550 1600
+Wire Wire Line
+	11550 1600 11300 1600
+Wire Wire Line
+	10950 1800 11050 1800
+Wire Wire Line
+	11550 1900 11550 1800
+Connection ~ 11550 1800
+Wire Wire Line
+	10950 1300 10950 1800
+Connection ~ 11750 2000
+Wire Wire Line
+	11750 2000 11750 2100
+Connection ~ 11750 2100
+Wire Wire Line
+	11750 2100 11750 3000
+Text Notes 12550 2850 0    50   ~ 0
+L0+\nL1+\nL0-\nL1-\nL2+\nL3+\nL2-\nL3-
+Wire Wire Line
+	11900 2400 11300 2400
+Wire Wire Line
+	11900 1600 11550 1600
+Wire Wire Line
+	11900 1700 11550 1700
+Wire Wire Line
+	11900 2100 11750 2100
+Wire Wire Line
+	11550 1800 11900 1800
+Wire Wire Line
+	11900 1900 11550 1900
+Wire Wire Line
+	11900 2200 11300 2200
+Wire Wire Line
+	11750 1300 11900 1300
+Wire Wire Line
+	11550 1500 11900 1500
+Wire Wire Line
+	11900 1400 11550 1400
+Wire Wire Line
+	11900 2900 11300 2900
+Wire Wire Line
+	11900 2800 11300 2800
+Wire Wire Line
+	11900 1200 11850 1200
+Wire Wire Line
+	11900 2700 11300 2700
+Wire Wire Line
+	11900 2600 11300 2600
+Wire Wire Line
+	11900 2500 11300 2500
+Wire Wire Line
+	11900 2300 11300 2300
+Wire Wire Line
+	11750 2000 11900 2000
+Wire Wire Line
+	11900 3000 11750 3000
+Connection ~ 11750 3000
+Wire Wire Line
+	11750 3000 11750 3100
+Wire Wire Line
+	11900 3100 11750 3100
+Connection ~ 11750 3100
+Wire Wire Line
+	11750 3100 11750 4000
+Wire Wire Line
+	11900 3300 11300 3300
+Wire Wire Line
+	11900 3500 11300 3500
+Wire Wire Line
+	11900 3600 11300 3600
+Wire Wire Line
+	11900 3700 11300 3700
+Wire Wire Line
+	11900 3800 11300 3800
+Wire Wire Line
+	11900 3200 11300 3200
+Wire Wire Line
+	11900 3400 11300 3400
+Wire Wire Line
+	11750 4000 11900 4000
+Connection ~ 11750 4000
+Wire Wire Line
+	11750 4000 11750 4100
+Wire Wire Line
+	11900 4100 11750 4100
+Connection ~ 11750 4100
+Wire Wire Line
+	11750 4100 11750 5000
+Wire Wire Line
+	11900 3900 11300 3900
+Wire Wire Line
+	11900 4300 11300 4300
+Wire Wire Line
+	11900 4500 11300 4500
+Wire Wire Line
+	11900 4600 11300 4600
+Wire Wire Line
+	11900 4700 11300 4700
+Wire Wire Line
+	11900 4800 11300 4800
+Wire Wire Line
+	11900 4900 11300 4900
+Wire Wire Line
+	11900 4200 11300 4200
+Wire Wire Line
+	11900 4400 11300 4400
+Wire Wire Line
+	11900 5900 11300 5900
+Wire Wire Line
+	11900 5200 11300 5200
+Wire Wire Line
+	11900 5800 11300 5800
+Wire Wire Line
+	11900 5700 11300 5700
+Wire Wire Line
+	11900 5500 11300 5500
+Wire Wire Line
+	11900 5600 11300 5600
+Wire Wire Line
+	11900 5400 11300 5400
+Wire Wire Line
+	11900 5300 11300 5300
+Wire Wire Line
+	11900 6900 11300 6900
+Wire Wire Line
+	11900 6200 11300 6200
+Wire Wire Line
+	11900 6700 11300 6700
+Wire Wire Line
+	11900 6800 11300 6800
+Wire Wire Line
+	11900 6600 11300 6600
+Wire Wire Line
+	11900 6500 11300 6500
+Wire Wire Line
+	11900 6400 11300 6400
+Wire Wire Line
+	11900 6300 11300 6300
+Wire Wire Line
+	11900 7300 11300 7300
+Wire Wire Line
+	11900 7400 11300 7400
+Wire Wire Line
+	11900 7200 11300 7200
+Wire Wire Line
+	11900 7900 11300 7900
+Wire Wire Line
+	11900 7800 11300 7800
+Wire Wire Line
+	11900 7700 11300 7700
+Wire Wire Line
+	11900 7500 11300 7500
+Wire Wire Line
+	11900 7600 11300 7600
+Wire Wire Line
+	11900 8700 11300 8700
+Wire Wire Line
+	11900 8200 11300 8200
+Wire Wire Line
+	11900 8800 11300 8800
+Wire Wire Line
+	11900 8900 11300 8900
+Wire Wire Line
+	11900 8500 11300 8500
+Wire Wire Line
+	11900 8600 11300 8600
+Wire Wire Line
+	11900 8300 11300 8300
+Wire Wire Line
+	11900 8400 11300 8400
+Wire Wire Line
+	11900 9000 11750 9000
+Connection ~ 11750 9000
+Wire Wire Line
+	11750 9000 11750 9100
+Wire Wire Line
+	11900 9100 11750 9100
+Connection ~ 11750 9100
+Wire Wire Line
+	11750 9100 11750 9250
+Wire Wire Line
+	6200 1500 6850 1500
+Wire Wire Line
+	6200 1600 6850 1600
+Wire Wire Line
+	6850 1800 6200 1800
+Wire Wire Line
+	6200 1900 6850 1900
+Wire Bus Line
+	6200 1400 6850 1400
+Text Label 6400 1400 0    50   ~ 0
+ADC_D[0..7]
+Text Label 11350 2200 0    50   ~ 0
+ADC_D0
+Text Label 11350 2300 0    50   ~ 0
+ADC_D1
+Text Label 11350 2400 0    50   ~ 0
+ADC_D2
+Text Label 11350 2500 0    50   ~ 0
+ADC_D3
+Text Label 11350 2600 0    50   ~ 0
+ADC_D4
+Text Label 11350 2700 0    50   ~ 0
+ADC_D5
+Text Label 11350 2800 0    50   ~ 0
+ADC_D6
+Text Label 11350 2900 0    50   ~ 0
+ADC_D7
+Text Label 11350 3200 0    50   ~ 0
+ADC_D8
+Text Label 11350 3300 0    50   ~ 0
+ADC_D9
+Text Notes 12575 2100 0    50   ~ 0
+Provisional assignment of AFE connector signals:\nAll digital signals in J3 are 2.5V LVDS\nDC coupled, AFE->FPGA (unless indicated otherwise)
+Text Label 6400 1500 0    50   ~ 0
+ADC_DOR
+Text Label 6400 1600 0    50   ~ 0
+ADC_DCLK
+Text Label 6400 1800 0    50   ~ 0
+ADC_CLK_P
+Text Label 6400 1900 0    50   ~ 0
+ADC_CLK_N
+Wire Wire Line
+	11750 5000 11900 5000
+Connection ~ 11750 5000
+Wire Wire Line
+	11900 5100 11750 5100
+Wire Wire Line
+	11750 5000 11750 5100
+Connection ~ 11750 5100
+Wire Wire Line
+	11750 5100 11750 6000
+Wire Wire Line
+	11750 6000 11900 6000
+Connection ~ 11750 6000
+Wire Wire Line
+	11750 6000 11750 6100
+Wire Wire Line
+	11750 6100 11900 6100
+Connection ~ 11750 6100
+Wire Wire Line
+	11750 6100 11750 7000
+Wire Wire Line
+	11900 7000 11750 7000
+Connection ~ 11750 7000
+Wire Wire Line
+	11750 7000 11750 7100
+Wire Wire Line
+	11900 7100 11750 7100
+Connection ~ 11750 7100
+Wire Wire Line
+	11750 7100 11750 8000
+Wire Wire Line
+	11900 8000 11750 8000
+Connection ~ 11750 8000
+Wire Wire Line
+	11750 8000 11750 8100
+Wire Wire Line
+	11900 8100 11750 8100
+Connection ~ 11750 8100
+Wire Wire Line
+	11750 8100 11750 9000
+Text Notes 700  11000 0    50   ~ 0
+Copyright M.Skalski & R.Jaszczyk 2019.\nThis documentation describes Open Hardware and is licensed under the CERN OHL v.1.2.\nYou may redistribute and modify this under the terms of the CERN OHL v.1.2. (http:{slash}{slash}ohwr.org{slash}CERNOHL).\nThis documentation is distributed ANY EXPRESS OR IMPLIED WARRANTY,\nINCLUDING OF MERCHANTABILITY, SATISFACTORY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN OHL v.1.2 for applicable conditions.
+Wire Notes Line
+	650  10450 4900 10450
+Wire Notes Line
+	4900 10450 4900 11100
+Wire Notes Line
+	4900 11100 650  11100
+Wire Notes Line
+	650  11100 650  10450
+Text Label 11300 4200 0    50   ~ 0
+MCU_SDA
+Text Label 11300 4300 0    50   ~ 0
+MCU_SCL
+Text Label 11300 4400 0    50   ~ 0
+MCU_RESET
+Text Label 11300 4500 0    50   ~ 0
+MCU_IRQ
+Wire Wire Line
+	4250 4300 5050 4300
 $Comp
 L SAMTEC:SAMTEC_LSS-140-01-L-DV-A J3
 U 1 1 5CE47166
-P 12100 1600
-F 0 "J3" H 12428 -2513 50  0000 L CNN
-F 1 "SAMTEC_LSS-140-01-L-DV-A" H 12100 -6710 50  0001 L CNN
-F 2 "SAMTEC SMD:SAMTEC_LSS-140-01-L-DV-A" H 12100 -6785 50  0001 L CNN
-F 3 "" H 12100 -6860 50  0001 L CNN
-F 4 " " H 12100 -7835 50  0001 L CNN "Family"
-F 5 "SAMTEC_LSS-140-01-L-DV-A" H 12100 -6935 50  0001 L CNN "Part Number"
-F 6 "Connector 80 Hermaphroditic" H 12100 -7010 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 12100 -7085 50  0001 L CNN "Library Path"
-F 8 " " H 12100 -7160 50  0001 L CNN "Comment"
-F 9 "Standard" H 12100 -7235 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 12100 -7310 50  0001 L CNN "Component Type"
-F 11 " " H 12100 -7385 50  0001 L CNN "Device"
-F 12 " " H 12100 -7460 50  0001 L CNN "PackageDescription"
-F 13 "80" H 12100 -7535 50  0001 L CNN "Pin Count"
-F 14 " " H 12100 -7610 50  0001 L CNN "Case"
-F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 12100 -7685 50  0001 L CNN "Footprint Path"
-F 16 "SAMTEC_LSS-140-01-L-DV-A" H 12100 -7760 50  0001 L CNN "Footprint Ref"
-F 17 "Yes" H 12100 -7910 50  0001 L CNN "Mounted"
-F 18 "No" H 12100 -7985 50  0001 L CNN "Socket"
-F 19 "No" H 12100 -8060 50  0001 L CNN "PressFit"
-F 20 "No" H 12100 -8135 50  0001 L CNN "Sense"
-F 21 " " H 12100 -8210 50  0001 L CNN "Sense Comment"
-F 22 "Yes" H 12100 -8285 50  0001 L CNN "SMD"
-F 23 " " H 12100 -8360 50  0001 L CNN "Status Comment"
-F 24 "None" H 12100 -8435 50  0001 L CNN "Status"
-F 25 " " H 12100 -8510 50  0001 L CNN "SCEM"
-F 26 "80 Contacts, Pitch 0.635mm, Razor Beam LSS Vertical High Speed Hermaphroditic Strip (Lead Style 4.5mm)" H 12100 -8585 50  0001 L CNN "Part Description"
-F 27 "SAMTEC" H 12100 -8660 50  0001 L CNN "Manufacturer"
-F 28 "LSS-140-01-L-DV-A" H 12100 -8735 50  0001 L CNN "Manufacturer Part Number"
-F 29 "4.57mm" H 12100 -8810 50  0001 L CNN "ComponentHeight"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_LSS-140-01-L-DV-A.pdf" H 12100 -8885 50  0001 L CNN "HelpURL"
-F 31 " " H 12100 -8960 50  0001 L CNN "ComponentLink1URL"
-F 32 " " H 12100 -9035 50  0001 L CNN "ComponentLink1Description"
-F 33 " " H 12100 -9110 50  0001 L CNN "ComponentLink2URL"
-F 34 " " H 12100 -9185 50  0001 L CNN "ComponentLink2Description"
-F 35 "CERN DEM JMW" H 12100 -9260 50  0001 L CNN "Author"
-F 36 "11/10/15 00:00:00" H 12100 -9335 50  0001 L CNN "CreateDate"
-F 37 "11/10/15 00:00:00" H 12100 -9410 50  0001 L CNN "LatestRevisionDate"
-F 38 "SAMTEC" H 12100 -9485 50  0001 L CNN "Database Table Name"
-F 39 "Connectors.DbLib" H 12100 -9560 50  0001 L CNN "Library Name"
-F 40 "SAMTEC SMD" H 12100 -9635 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12100 -9710 50  0001 L CNN "License"
-	1    12100 1600
+P 12100 1100
+F 0 "J3" H 12078 1187 50  0000 L CNN
+F 1 "SAMTEC_LSS-140-01-L-DV-A" H 12100 -7210 50  0001 L CNN
+F 2 "SAMTEC SMD:SAMTEC_LSS-140-01-L-DV-A" H 12100 -7285 50  0001 L CNN
+F 3 "" H 12100 -7360 50  0001 L CNN
+F 4 " " H 12100 -8335 50  0001 L CNN "Family"
+F 5 "SAMTEC_LSS-140-01-L-DV-A" H 12100 -7435 50  0001 L CNN "Part Number"
+F 6 "Connector 80 Hermaphroditic" H 12100 -7510 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 12100 -7585 50  0001 L CNN "Library Path"
+F 8 " " H 12100 -7660 50  0001 L CNN "Comment"
+F 9 "Standard" H 12100 -7735 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 12100 -7810 50  0001 L CNN "Component Type"
+F 11 " " H 12100 -7885 50  0001 L CNN "Device"
+F 12 " " H 12100 -7960 50  0001 L CNN "PackageDescription"
+F 13 "80" H 12100 -8035 50  0001 L CNN "Pin Count"
+F 14 " " H 12100 -8110 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 12100 -8185 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_LSS-140-01-L-DV-A" H 12100 -8260 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 12100 -8410 50  0001 L CNN "Mounted"
+F 18 "No" H 12100 -8485 50  0001 L CNN "Socket"
+F 19 "No" H 12100 -8560 50  0001 L CNN "PressFit"
+F 20 "No" H 12100 -8635 50  0001 L CNN "Sense"
+F 21 " " H 12100 -8710 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 12100 -8785 50  0001 L CNN "SMD"
+F 23 " " H 12100 -8860 50  0001 L CNN "Status Comment"
+F 24 "None" H 12100 -8935 50  0001 L CNN "Status"
+F 25 " " H 12100 -9010 50  0001 L CNN "SCEM"
+F 26 "80 Contacts, Pitch 0.635mm, Razor Beam LSS Vertical High Speed Hermaphroditic Strip (Lead Style 4.5mm)" H 12100 -9085 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 12100 -9160 50  0001 L CNN "Manufacturer"
+F 28 "LSS-140-01-L-DV-A" H 12100 -9235 50  0001 L CNN "Manufacturer Part Number"
+F 29 "4.57mm" H 12100 -9310 50  0001 L CNN "ComponentHeight"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_LSS-140-01-L-DV-A.pdf" H 12100 -9385 50  0001 L CNN "HelpURL"
+F 31 " " H 12100 -9460 50  0001 L CNN "ComponentLink1URL"
+F 32 " " H 12100 -9535 50  0001 L CNN "ComponentLink1Description"
+F 33 " " H 12100 -9610 50  0001 L CNN "ComponentLink2URL"
+F 34 " " H 12100 -9685 50  0001 L CNN "ComponentLink2Description"
+F 35 "CERN DEM JMW" H 12100 -9760 50  0001 L CNN "Author"
+F 36 "11/10/15 00:00:00" H 12100 -9835 50  0001 L CNN "CreateDate"
+F 37 "11/10/15 00:00:00" H 12100 -9910 50  0001 L CNN "LatestRevisionDate"
+F 38 "SAMTEC" H 12100 -9985 50  0001 L CNN "Database Table Name"
+F 39 "Connectors.DbLib" H 12100 -10060 50  0001 L CNN "Library Name"
+F 40 "SAMTEC SMD" H 12100 -10135 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12100 -10210 50  0001 L CNN "License"
+	1    12100 1100
 	1    0    0    -1  
 $EndComp
-Text Notes 11850 10300 0    50   ~ 0
-Drawn By & Review: T. Wlostowski\n
+Text Notes 12550 3900 0    50   ~ 0
+L4+\nL5+\nL4-\nL5-\nL6+\nL7+\nL6-\nL7-
+Text Notes 12550 4850 0    50   ~ 0
+L8+\nL9+\nL8-\nL9-\nL10+\nL11+\nL10-\nL11-
+Text Notes 12550 5850 0    50   ~ 0
+L12+\nL13+\nL12-\nL13-\nL14+\nL15+\nL14-\nL15-
+Text Notes 12550 6900 0    50   ~ 0
+L16+\nL17+\nL16-\nL17-\nL18+\nL19+\nL18-\nL19-
+Text Notes 12550 7850 0    50   ~ 0
+L20+\nL21+\nL20-\nL21-\nL22+\nL23+\nL22-\nL23-
+Text Notes 12550 8900 0    50   ~ 0
+L24_DCLK0+\nL25_DCLK1+\nL24_DCLK0-\nL25_DCLK1-\nADC_CLK0+\nADC_CLK1+\nADC_CLK0-\nADC_CLK1-
+Text Label 11350 3400 0    50   ~ 0
+ADC_DOR
+Text Label 11300 8600 0    50   ~ 0
+ADC_CLK_P
+Text Label 11300 8700 0    50   ~ 0
+ADC_CLK_N
+NoConn ~ 11450 1300
+$Comp
+L Power2:PWR_FLAG #FLG0102
+U 1 1 5CE8788E
+P 11050 1800
+F 0 "#FLG0102" H 11050 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 11050 1973 50  0000 C CNN
+F 2 "" H 11050 1800 50  0001 C CNN
+F 3 "" H 11050 1800 50  0001 C CNN
+	1    11050 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 11050 1800
+Wire Wire Line
+	11050 1800 11550 1800
+$Comp
+L Power2:PWR_FLAG #FLG0103
+U 1 1 5CE88163
+P 11300 1600
+F 0 "#FLG0103" H 11300 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 11300 1773 50  0000 C CNN
+F 2 "" H 11300 1600 50  0001 C CNN
+F 3 "" H 11300 1600 50  0001 C CNN
+	1    11300 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 11300 1600
+Wire Wire Line
+	11300 1600 11200 1600
+$Comp
+L Power2:PWR_FLAG #FLG0104
+U 1 1 5CE882D0
+P 11850 1200
+F 0 "#FLG0104" H 11850 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 11850 1373 50  0000 C CNN
+F 2 "" H 11850 1200 50  0001 C CNN
+F 3 "" H 11850 1200 50  0001 C CNN
+	1    11850 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 11850 1200
+Wire Wire Line
+	11850 1200 11750 1200
+$Comp
+L Pads:Net_Tie_2 NT1
+U 1 1 5CE8D732
+P 5650 7750
+F 0 "NT1" H 5750 7839 50  0000 C CNN
+F 1 "Net_Tie_2" H 5650 7595 50  0001 L CNN
+F 2 "Pads:Net Tie 2" H 5650 7520 50  0001 L CNN
+F 3 "" H 5650 7445 50  0001 L CNN
+F 4 "Net Tie" H 5650 6620 50  0001 L CNN "Family"
+F 5 "Net_Tie_2" H 5650 7370 50  0001 L CNN "Part Number"
+F 6 "Net Tie" H 5650 7295 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 5650 7220 50  0001 L CNN "Library Path"
+F 8 " " H 5650 7145 50  0001 L CNN "Comment"
+F 9 "Net Tie" H 5650 7070 50  0001 L CNN "Component Kind"
+F 10 "Net Tie" H 5650 6995 50  0001 L CNN "Component Type"
+F 11 "2" H 5650 6920 50  0001 L CNN "Pin Count"
+F 12 " " H 5650 6845 50  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 5650 6770 50  0001 L CNN "Footprint Path"
+F 14 "Net Tie 2" H 5650 6695 50  0001 L CNN "Footprint Ref"
+F 15 "No" H 5650 6545 50  0001 L CNN "Mounted"
+F 16 "No" H 5650 6470 50  0001 L CNN "Socket"
+F 17 "No" H 5650 6395 50  0001 L CNN "SMD"
+F 18 "No" H 5650 6320 50  0001 L CNN "Sense"
+F 19 " " H 5650 6245 50  0001 L CNN "Sense Comment"
+F 20 "None" H 5650 6170 50  0001 L CNN "Status"
+F 21 " " H 5650 6095 50  0001 L CNN "Status Comment"
+F 22 " " H 5650 6020 50  0001 L CNN "SCEM"
+F 23 "Net Tie (2 Nets)" H 5650 5945 50  0001 L CNN "Part Description"
+F 24 " " H 5650 5870 50  0001 L CNN "Manufacturer"
+F 25 " " H 5650 5795 50  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 5650 5720 50  0001 L CNN "ComponentHeight"
+F 27 " " H 5650 5645 50  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 5650 5570 50  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 5650 5495 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 "Undefined" H 5650 5420 50  0001 L CNN "HelpURL"
+F 31 " " H 5650 5345 50  0001 L CNN "ComponentLink1URL"
+F 32 " " H 5650 5270 50  0001 L CNN "ComponentLink1Description"
+F 33 " " H 5650 5195 50  0001 L CNN "ComponentLink2URL"
+F 34 " " H 5650 5120 50  0001 L CNN "ComponentLink2Description"
+F 35 "CERN DEM BC" H 5650 5045 50  0001 L CNN "Author"
+F 36 "10/08/15 00:00:00" H 5650 4970 50  0001 L CNN "CreateDate"
+F 37 "10/08/15 00:00:00" H 5650 4895 50  0001 L CNN "LatestRevisionDate"
+F 38 "2 Plated Through Hole For Coaxial Cable Link: Hole Dia.=1.4mm Pad Dia.=2.5mm" H 5650 4820 50  0001 L CNN "PackageDescription"
+F 39 "Pads" H 5650 4745 50  0001 L CNN "Database Table Name"
+F 40 "Eletro-mechanical.DbLib" H 5650 4670 50  0001 L CNN "Library Name"
+F 41 "Pads" H 5650 4595 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5650 4520 50  0001 L CNN "License"
+	1    5650 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power2:GNDA #PWR023
+U 1 1 5CE91D77
+P 5550 7900
+F 0 "#PWR023" H 5550 7650 50  0001 C CNN
+F 1 "GNDA" H 5555 7727 50  0000 C CNN
+F 2 "" H 5550 7900 50  0001 C CNN
+F 3 "" H 5550 7900 50  0001 C CNN
+	1    5550 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 7750 5550 7750
+Wire Wire Line
+	5550 7750 5550 7900
+$Comp
+L Power2:GND #PWR060
+U 1 1 5CE921E8
+P 6050 7900
+F 0 "#PWR060" H 6050 7650 50  0001 C CNN
+F 1 "GND" H 6055 7727 50  0000 C CNN
+F 2 "" H 6050 7900 50  0001 C CNN
+F 3 "" H 6050 7900 50  0001 C CNN
+	1    6050 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7750 6050 7900
+Wire Wire Line
+	5850 7750 6050 7750
+Wire Bus Line
+	10600 3000 11200 3000
+Text Label 10600 3000 0    50   ~ 0
+ADC_D[0..7]
+Entry Wire Line
+	11200 2300 11300 2200
+Entry Wire Line
+	11200 2400 11300 2300
+Entry Wire Line
+	11200 2500 11300 2400
+Entry Wire Line
+	11200 2600 11300 2500
+Entry Wire Line
+	11200 2700 11300 2600
+Entry Wire Line
+	11200 2800 11300 2700
+Entry Wire Line
+	11200 2900 11300 2800
+Entry Wire Line
+	11200 3000 11300 2900
+$Comp
+L Power2:+2V5A #PWR0124
+U 1 1 5CE50034
+P 1850 5750
+F 0 "#PWR0124" H 1850 5600 50  0001 C CNN
+F 1 "+2V5A" H 1865 5923 50  0000 C CNN
+F 2 "" H 1850 5750 50  0001 C CNN
+F 3 "" H 1850 5750 50  0001 C CNN
+	1    1850 5750
+	1    0    0    -1  
+$EndComp
+Text Notes 5050 7500 0    50   ~ 0
+Split ground plane near{slash}under the ADC (TBD)
+Text Notes 13275 8400 0    50   ~ 0
+Data clocks (AFE->FPGA)
+Text Notes 13275 8750 0    50   ~ 0
+Sampling clocks (system PLL->AFE)
+Text Notes 12525 1300 0    50   ~ 0
+Dirty +5V digital, 1 A
+Wire Bus Line
+	11200 2300 11200 3000
 $EndSCHEMATC
