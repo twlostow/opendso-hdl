@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "lcd_test_board-rescue")(type "Legacy")(uri "${KIPRJMOD}/lcd_test_board-rescue.lib")(options "")(descr ""))
+  (lib (name "max19506")(type "Legacy")(uri "${KIPRJMOD}/../lib/max19506.lib")(options "")(descr ""))
+)

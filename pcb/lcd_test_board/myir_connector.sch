@@ -1,0 +1,532 @@
+EESchema Schematic File Version 5
+LIBS:lcd_test_board-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Power2:GND #PWR0114
+U 1 1 5CE5CDB5
+P 5000 7300
+F 0 "#PWR0114" H 5000 7050 50  0001 C CNN
+F 1 "GND" H 5005 7127 50  0000 C CNN
+F 2 "" H 5000 7300 50  0001 C CNN
+F 3 "" H 5000 7300 50  0001 C CNN
+	1    5000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power2:+1V8 #PWR0115
+U 1 1 5CE5CDB6
+P 8450 1700
+F 0 "#PWR0115" H 8450 1550 50  0001 C CNN
+F 1 "+1V8" H 8465 1873 50  0000 C CNN
+F 2 "" H 8450 1700 50  0001 C CNN
+F 3 "" H 8450 1700 50  0001 C CNN
+	1    8450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SAMTEC:SAMTEC_BTH-060-01-L-D-A J2
+U 1 1 5CE5CDB7
+P 5600 1000
+F 0 "J2" H 5750 1073 50  0000 C CNN
+F 1 "SAMTEC_BTH-060-01-L-D-A" H 5600 -5675 50  0001 L CNN
+F 2 "Connectors SMD:SAMTEC_BTH-060-01-L-D-A" H 5600 -5750 50  0001 L CNN
+F 3 "" H 5600 -5825 50  0001 L CNN
+F 4 " " H 5600 -6800 50  0001 L CNN "Family"
+F 5 "SAMTEC_QSH-060-01-L-D-A" H 5600 -5900 50  0001 L CNN "Part Number"
+F 6 "Connector 120 Female (2x60) + 2x4 GND" H 5600 -5975 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 5600 -6050 50  0001 L CNN "Library Path"
+F 8 " " H 5600 -6125 50  0001 L CNN "Comment"
+F 9 "Standard" H 5600 -6200 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 5600 -6275 50  0001 L CNN "Component Type"
+F 11 " " H 5600 -6350 50  0001 L CNN "Device"
+F 12 " " H 5600 -6425 50  0001 L CNN "PackageDescription"
+F 13 "128" H 5600 -6500 50  0001 L CNN "Pin Count"
+F 14 " " H 5600 -6575 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 5600 -6650 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_QSH-060-01-L-D-A" H 5600 -6725 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 5600 -6875 50  0001 L CNN "Mounted"
+F 18 "No" H 5600 -6950 50  0001 L CNN "Socket"
+F 19 "No" H 5600 -7025 50  0001 L CNN "PressFit"
+F 20 "No" H 5600 -7100 50  0001 L CNN "Sense"
+F 21 " " H 5600 -7175 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 5600 -7250 50  0001 L CNN "SMD"
+F 23 " " H 5600 -7325 50  0001 L CNN "Status Comment"
+F 24 "None" H 5600 -7400 50  0001 L CNN "Status"
+F 25 " " H 5600 -7475 50  0001 L CNN "SCEM"
+F 26 "120 Contacts ((2x30)x2), Pitch 0.5mm, Straight Double Row High Speed Ground Plane Socket" H 5600 -7550 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 5600 -7625 50  0001 L CNN "Manufacturer"
+F 28 "QSH-060-01-L-D-A" H 5600 -7700 50  0001 L CNN "Manufacturer Part Number"
+F 29 "3.25mm" H 5600 -7775 50  0001 L CNN "ComponentHeight"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_QSH-060-01-L-D-A.pdf" H 5600 -7850 50  0001 L CNN "HelpURL"
+F 31 " " H 5600 -7925 50  0001 L CNN "ComponentLink1URL"
+F 32 " " H 5600 -8000 50  0001 L CNN "ComponentLink1Description"
+F 33 " " H 5600 -8075 50  0001 L CNN "ComponentLink2URL"
+F 34 " " H 5600 -8150 50  0001 L CNN "ComponentLink2Description"
+F 35 "CERN DEM JLC" H 5600 -8225 50  0001 L CNN "Author"
+F 36 "10/07/13 00:00:00" H 5600 -8300 50  0001 L CNN "CreateDate"
+F 37 "10/07/13 00:00:00" H 5600 -8375 50  0001 L CNN "LatestRevisionDate"
+F 38 "SAMTEC" H 5600 -8450 50  0001 L CNN "Database Table Name"
+F 39 "Connectors.DbLib" H 5600 -8525 50  0001 L CNN "Library Name"
+F 40 "SAMTEC SMD" H 5600 -8600 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5600 -8675 50  0001 L CNN "License"
+	1    5600 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Power2:+1V8 #PWR0116
+U 1 1 5CE5CDB8
+P 3250 2000
+F 0 "#PWR0116" H 3250 1850 50  0001 C CNN
+F 1 "+1V8" H 3265 2173 50  0000 C CNN
+F 2 "" H 3250 2000 50  0001 C CNN
+F 3 "" H 3250 2000 50  0001 C CNN
+	1    3250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Power2:+1V8 #PWR0117
+U 1 1 5CE5CDB9
+P 3250 4250
+F 0 "#PWR0117" H 3250 4100 50  0001 C CNN
+F 1 "+1V8" H 3265 4423 50  0000 C CNN
+F 2 "" H 3250 4250 50  0001 C CNN
+F 3 "" H 3250 4250 50  0001 C CNN
+	1    3250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power2:+1V8 #PWR0118
+U 1 1 5CE5CDBA
+P 7900 4900
+F 0 "#PWR0118" H 7900 4750 50  0001 C CNN
+F 1 "+1V8" H 7915 5073 50  0000 C CNN
+F 2 "" H 7900 4900 50  0001 C CNN
+F 3 "" H 7900 4900 50  0001 C CNN
+	1    7900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power2:+5V #PWR0119
+U 1 1 5CE5CDBB
+P 6700 6850
+F 0 "#PWR0119" H 6700 6700 50  0001 C CNN
+F 1 "+5V" H 6715 7023 50  0000 C CNN
+F 2 "" H 6700 6850 50  0001 C CNN
+F 3 "" H 6700 6850 50  0001 C CNN
+	1    6700 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1400 5900 1400
+Text Notes 8350 3850 0    50   ~ 0
+DSI_CLK
+Text Notes 8350 3650 0    50   ~ 0
+DSI_CLK_LP
+Text Notes 6550 6500 0    62   ~ 0
+EXT_RESET_IN\nIO_B35_LP2\nIO_B35_LN2\n\nIO_B35_LP5\nIO_B35_LN5\nIO_B35_LP16\nIO_B35_LN16\n\n\nIO_B35_LP14\nIO_B35_LN14\nIO_B35_LP1\nIO_B35_LN1\n\nIO_B35_LP18\nIO_B35_LN18\nIO_B35_LP15\nIO_B35_LN15\n\nIO_B35_LP11\nIO_B35_LN11\nIO_B35_LP9\nIO_B35_LN9\n\nIO_B35_LP24\nIO_B35_LN24\nIO_B35_LP8\nIO_B35_LN8\n\nIO_B34_LP23\nIO_B34_LN23\nIO_B35_LP7\nIO_B35_LN7\n\nIO_B34_LP13\nIO_B34_LN13\nIO_B34_LP14\nIO_B34_LN14\n\n\nIO_B34_LP9\nIO_B34_LN9\nIO_B34_LP12\nIO_B34_LN12\n\nIO_B34_LP22\nIO_B34_LN22\nIO_B34_LP11\nIO_B34_LN11\n\nIO_B34_LP10\nIO_B34_LN10\nIO_B34_LP7\nIO_B34_LN7
+Text Label 4150 6900 0    50   ~ 0
+VDD_MYIR_5V
+Text Label 6100 6900 0    50   ~ 0
+VDD_MYIR_5V
+Text Notes 4350 6500 2    62   ~ 0
+PS500_RESET_OUT\nIO_B35_LP3\nIO_B35_LN3\n\nIO_B35_LP4\nIO_B35_LN4\nIO_B35_LP6\nIO_B35_LN6\n\n\nIO_B35_LP17\nIO_B35_LN17\nIO_B35_LP12\nIO_B35_LN12\n\nIO_B35_LP10\nIO_B35_LN10\nIO_B35_LP19\nIO_B35_LN19\n\nIO_B35_LP20\nIO_B35_LN20\nIO_B35_LP13\nIO_B35_LN13\n\nIO_B35_LP22\nIO_B35_LN22\nIO_B35_LP23\nIO_B35_LN23\n\nIO_B34_LP24\nIO_B34_LN24\nIO_B35_LP21\nIO_B35_LN21\n\n\nIO_B34_LP19\nIO_B34_LN19\nIO_B34_LP15\nIO_B34_LN15\n\nIO_B34_LP16\nIO_B34_LN16\nIO_B34_LP20\nIO_B34_LN20\n\nIO_B34_LP21\nIO_B34_LN21\nIO_B34_LP18\nIO_B34_LN18\n\nIO_B34_LP17\nIO_B34_LN17\nIO_B34_LP8\nIO_B34_LN8
+Connection ~ 5000 4600
+Connection ~ 5900 1900
+Wire Wire Line
+	5900 1400 5900 1900
+Wire Wire Line
+	5800 1900 5900 1900
+Wire Wire Line
+	5900 1900 5900 2500
+Connection ~ 5000 6100
+Wire Wire Line
+	5800 2500 5900 2500
+Connection ~ 5900 2500
+Wire Wire Line
+	5900 2500 5900 3000
+Wire Wire Line
+	5800 1100 6500 1100
+Wire Wire Line
+	4400 1100 5100 1100
+Wire Wire Line
+	4400 1200 5100 1200
+Wire Wire Line
+	4400 1300 5100 1300
+Wire Wire Line
+	5100 1400 5000 1400
+Wire Wire Line
+	5000 1400 5000 1900
+Wire Wire Line
+	5000 1900 5100 1900
+Wire Wire Line
+	5000 1900 5000 2500
+Wire Wire Line
+	5000 2500 5100 2500
+Connection ~ 5000 1900
+Wire Wire Line
+	5100 2000 3250 2000
+Wire Wire Line
+	5100 3000 5000 3000
+Wire Wire Line
+	5000 3000 5000 2500
+Connection ~ 5000 2500
+Wire Wire Line
+	5100 3500 5000 3500
+Wire Wire Line
+	5000 3500 5000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	4400 2200 5100 2200
+Wire Wire Line
+	4400 2300 5100 2300
+Wire Wire Line
+	4400 2400 5100 2400
+Wire Wire Line
+	4400 2100 5100 2100
+Wire Wire Line
+	4400 2700 5100 2700
+Wire Wire Line
+	4400 2600 5100 2600
+Wire Wire Line
+	4400 2800 5100 2800
+Wire Wire Line
+	4400 2900 5100 2900
+Wire Wire Line
+	4400 3300 5100 3300
+Wire Wire Line
+	4400 3200 5100 3200
+Wire Wire Line
+	4400 3100 5100 3100
+Wire Wire Line
+	4400 3400 5100 3400
+Wire Wire Line
+	4400 3800 5100 3800
+Wire Wire Line
+	4400 3900 5100 3900
+Wire Wire Line
+	4400 3600 5100 3600
+Wire Wire Line
+	4400 3700 5100 3700
+Wire Wire Line
+	5000 3500 5000 4000
+Wire Wire Line
+	5000 4000 5100 4000
+Connection ~ 5000 3500
+Wire Wire Line
+	5000 4000 5000 4600
+Wire Wire Line
+	5000 4600 5100 4600
+Connection ~ 5000 4000
+Wire Wire Line
+	5100 4500 3250 4500
+Wire Wire Line
+	3250 4500 3250 4250
+Connection ~ 5000 5600
+Wire Wire Line
+	4400 4100 5100 4100
+Wire Wire Line
+	4400 4200 5100 4200
+Wire Wire Line
+	4400 4400 5100 4400
+Wire Wire Line
+	4400 4300 5100 4300
+Wire Wire Line
+	4400 4900 5100 4900
+Wire Wire Line
+	4400 4800 5100 4800
+Wire Wire Line
+	4400 5000 5100 5000
+Wire Wire Line
+	4400 4700 5100 4700
+Wire Wire Line
+	4400 5200 5100 5200
+Wire Wire Line
+	4400 5300 5100 5300
+Wire Wire Line
+	4400 5400 5100 5400
+Wire Wire Line
+	4400 5500 5100 5500
+Wire Wire Line
+	4400 5700 5100 5700
+Wire Wire Line
+	4400 5800 5100 5800
+Wire Wire Line
+	4400 5900 5100 5900
+Wire Wire Line
+	4400 6000 5100 6000
+Wire Wire Line
+	4400 6200 5100 6200
+Wire Wire Line
+	4400 6300 5100 6300
+Wire Wire Line
+	4400 6400 5100 6400
+Wire Wire Line
+	4400 6500 5100 6500
+Wire Wire Line
+	5000 4600 5000 5100
+Wire Wire Line
+	5000 6600 5100 6600
+Wire Wire Line
+	5100 6100 5000 6100
+Wire Wire Line
+	5000 6100 5000 6600
+Wire Wire Line
+	5000 5600 5100 5600
+Wire Wire Line
+	5000 5600 5000 6100
+Wire Wire Line
+	5100 5100 5000 5100
+Connection ~ 5000 5100
+Wire Wire Line
+	5000 5100 5000 5600
+Wire Wire Line
+	5100 6800 4850 6800
+Wire Wire Line
+	4850 6900 5100 6900
+Wire Wire Line
+	4850 6800 4850 6900
+Wire Wire Line
+	5100 7000 4850 7000
+Wire Wire Line
+	4850 7000 4850 6900
+Connection ~ 4850 6900
+Wire Wire Line
+	5800 6800 6000 6800
+Wire Wire Line
+	6000 6800 6000 6900
+Wire Wire Line
+	6000 7000 5800 7000
+Wire Wire Line
+	6000 6900 5800 6900
+Connection ~ 6000 6900
+Wire Wire Line
+	6000 6900 6000 7000
+Wire Wire Line
+	4850 6900 4100 6900
+Wire Wire Line
+	5100 6700 3950 6700
+Wire Wire Line
+	5000 6600 5000 7200
+Connection ~ 5000 6600
+Wire Wire Line
+	5800 3000 5900 3000
+Connection ~ 5900 3000
+Wire Wire Line
+	5900 3000 5900 3500
+Wire Wire Line
+	5800 3500 5900 3500
+Wire Wire Line
+	5900 3500 5900 4000
+Connection ~ 5900 3500
+Wire Wire Line
+	5800 5100 7900 5100
+Wire Wire Line
+	5800 4700 6500 4700
+Wire Wire Line
+	5800 4900 6500 4900
+Wire Wire Line
+	5800 4800 6500 4800
+Wire Wire Line
+	5800 4600 6500 4600
+Wire Wire Line
+	5800 5200 6500 5200
+Wire Wire Line
+	5800 5500 6500 5500
+Wire Wire Line
+	5800 5300 6500 5300
+Wire Wire Line
+	5800 5400 6500 5400
+Wire Wire Line
+	5800 6000 6500 6000
+Wire Wire Line
+	5800 5700 6500 5700
+Wire Wire Line
+	5800 5800 6500 5800
+Connection ~ 5900 6100
+Wire Wire Line
+	5800 5900 6500 5900
+Wire Wire Line
+	5800 6200 6500 6200
+Wire Wire Line
+	5800 6500 6500 6500
+Wire Wire Line
+	5800 6300 6500 6300
+Wire Wire Line
+	5800 6400 6500 6400
+Wire Wire Line
+	5800 6100 5900 6100
+Wire Wire Line
+	5900 5600 5800 5600
+Connection ~ 5900 5600
+Wire Wire Line
+	5900 5600 5900 6100
+Wire Wire Line
+	5800 5000 5900 5000
+Connection ~ 5900 5000
+Wire Wire Line
+	5900 5000 5900 5600
+Wire Wire Line
+	5900 4500 5800 4500
+Connection ~ 5900 4500
+Wire Wire Line
+	5900 4500 5900 5000
+Wire Wire Line
+	5800 4000 5900 4000
+Connection ~ 5900 4000
+Wire Wire Line
+	5900 4000 5900 4500
+Wire Wire Line
+	5800 6700 5900 6700
+Wire Wire Line
+	5900 6100 5900 6600
+Wire Wire Line
+	5800 6600 5900 6600
+Connection ~ 5900 6600
+Wire Wire Line
+	5900 6600 5900 6700
+Wire Wire Line
+	5000 7200 5900 7200
+Wire Wire Line
+	5900 7200 5900 6700
+Connection ~ 5000 7200
+Wire Wire Line
+	5000 7200 5000 7300
+Connection ~ 5900 6700
+Text Notes 8350 3150 0    50   ~ 0
+LP[1]
+Text Notes 8350 3350 0    50   ~ 0
+HS[1]
+Text Notes 8350 2700 0    50   ~ 0
+LP[0]
+Text Notes 8350 2900 0    50   ~ 0
+HS[0]
+Wire Wire Line
+	5800 2800 7650 2800
+Text HLabel 7650 2700 2    50   Output ~ 0
+DSI_LP_N0
+Text HLabel 7650 2600 2    50   Output ~ 0
+DSI_LP_P0
+Text HLabel 7650 2900 2    50   Output ~ 0
+DSI_HS_N0
+Wire Wire Line
+	5800 2700 7650 2700
+Wire Wire Line
+	5800 2900 7650 2900
+Wire Wire Line
+	5800 2600 7650 2600
+Text HLabel 7650 2800 2    50   Output ~ 0
+DSI_HS_P0
+Text HLabel 7650 3300 2    50   Output ~ 0
+DSI_HS_P1
+Text HLabel 7650 3400 2    50   Output ~ 0
+DSI_HS_N1
+Text HLabel 7650 3100 2    50   Output ~ 0
+DSI_LP_P1
+Text HLabel 7650 3200 2    50   Output ~ 0
+DSI_LP_N1
+Wire Wire Line
+	5800 3400 7650 3400
+Wire Wire Line
+	5800 3100 7650 3100
+Wire Wire Line
+	5800 3200 7650 3200
+Wire Wire Line
+	5800 3300 7650 3300
+Text HLabel 7650 3600 2    50   Output ~ 0
+DSI_CLK_LP_P
+Text HLabel 7650 3700 2    50   Output ~ 0
+DSI_CLK_LP_N
+Text HLabel 7650 3800 2    50   Output ~ 0
+DSI_CLK_P
+Text HLabel 7650 3900 2    50   Output ~ 0
+DSI_CLK_N
+Wire Wire Line
+	5800 3600 7650 3600
+Wire Wire Line
+	5800 3800 7650 3800
+Wire Wire Line
+	5800 3700 7650 3700
+Wire Wire Line
+	5800 3900 7650 3900
+Text HLabel 7650 1200 2    50   Output ~ 0
+DSI_RESET_N
+Text HLabel 7650 1700 2    50   Output ~ 0
+DSI_HS_P3
+Text HLabel 7650 1800 2    50   Output ~ 0
+DSI_HS_N3
+Text HLabel 7650 1500 2    50   Output ~ 0
+DSI_LP_P3
+Text HLabel 7650 1600 2    50   Output ~ 0
+DSI_LP_N3
+Wire Wire Line
+	5800 1500 7650 1500
+Wire Wire Line
+	5800 1600 7650 1600
+Wire Wire Line
+	5800 1700 7650 1700
+Wire Wire Line
+	5800 1800 7650 1800
+Text HLabel 7650 2300 2    50   Output ~ 0
+DSI_HS_P2
+Text HLabel 7650 2400 2    50   Output ~ 0
+DSI_HS_N2
+Text HLabel 7650 2100 2    50   Output ~ 0
+DSI_LP_P2
+Text HLabel 7650 2200 2    50   Output ~ 0
+DSI_LP_N2
+Wire Wire Line
+	5800 2200 7650 2200
+Wire Wire Line
+	5800 2100 7650 2100
+Wire Wire Line
+	5800 2400 7650 2400
+Wire Wire Line
+	5800 2300 7650 2300
+Wire Wire Line
+	8450 2000 8450 1700
+Wire Wire Line
+	5800 2000 8450 2000
+Wire Wire Line
+	5800 1200 7650 1200
+Wire Wire Line
+	7900 4900 7900 5100
+Wire Wire Line
+	6700 6850 6700 6900
+Wire Wire Line
+	6000 6900 6700 6900
+Text Label 4050 6700 0    50   ~ 0
+VBAT_KEY_BACK_1V8
+Text HLabel 7650 1300 2    50   Output ~ 0
+BL_EN
+Wire Wire Line
+	5800 1300 7650 1300
+Text HLabel 3250 1800 0    50   BiDi ~ 0
+TSP_SDA
+Text HLabel 3250 1700 0    50   Output ~ 0
+TSP_SCL
+Text HLabel 3250 1600 0    50   Output ~ 0
+TSP_RST
+Text HLabel 3250 1500 0    50   Input ~ 0
+TSP_INT
+Wire Wire Line
+	3250 1600 5100 1600
+Wire Wire Line
+	3250 1500 5100 1500
+Wire Wire Line
+	3250 1800 5100 1800
+Wire Wire Line
+	3250 1700 5100 1700
+$EndSCHEMATC

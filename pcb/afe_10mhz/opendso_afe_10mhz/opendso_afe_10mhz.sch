@@ -106,26 +106,6 @@ Wire Wire Line
 	1800 4000 2550 4000
 Wire Wire Line
 	1800 3600 2550 3600
-$Sheet
-S 2550 3000 1700 1400
-U 5CDEDE64
-F0 "AFE Channel 2" 50
-F1 "afe_channel.sch" 50
-F2 "RLY_ATT1_R" I L 2550 3500 50 
-F3 "RLY_ATT1_S" I L 2550 3600 50 
-F4 "AIN" I L 2550 3100 50 
-F5 "RLY_ATT2_S" I L 2550 3700 50 
-F6 "RLY_ATT2_R" I L 2550 3800 50 
-F7 "SSR_GND" I L 2550 3900 50 
-F8 "SSR_DC" I L 2550 4000 50 
-F9 "PGA_S0" I L 2550 4100 50 
-F10 "PGA_S1" I L 2550 4200 50 
-F11 "ADC_VCM" I R 4250 3100 50 
-F12 "ADC_N" O R 4250 3400 50 
-F13 "ADC_P" O R 4250 3300 50 
-F14 "VOFFSET" I R 4250 3600 50 
-F15 "VOFFSET_FB" O R 4250 4300 50 
-$EndSheet
 Text Label 1850 2500 0    50   ~ 0
 CH1_PGA_S1
 Text Label 1850 2400 0    50   ~ 0
@@ -339,26 +319,6 @@ Design: Robert Jaszczyk & Marek Skalski\n
 Text Notes 11850 10075 0    50   ~ 0
 OpenDSO - Analog Section\n
 $Sheet
-S 2550 1300 1700 1400
-U 5CE03C6E
-F0 "AFE Channel 1" 50
-F1 "afe_channel.sch" 50
-F2 "RLY_ATT1_R" I L 2550 1800 50 
-F3 "RLY_ATT1_S" I L 2550 1900 50 
-F4 "AIN" I L 2550 1400 50 
-F5 "RLY_ATT2_S" I L 2550 2100 50 
-F6 "RLY_ATT2_R" I L 2550 2000 50 
-F7 "SSR_GND" I L 2550 2200 50 
-F8 "SSR_DC" I L 2550 2300 50 
-F9 "PGA_S0" I L 2550 2400 50 
-F10 "PGA_S1" I L 2550 2500 50 
-F11 "ADC_VCM" I R 4250 1400 50 
-F12 "ADC_N" O R 4250 1700 50 
-F13 "ADC_P" O R 4250 1600 50 
-F14 "VOFFSET" I R 4250 1900 50 
-F15 "VOFFSET_FB" O R 4250 2600 50 
-$EndSheet
-$Sheet
 S 5100 6100 1300 200 
 U 5CDC4F1D
 F0 "Power Supply" 50
@@ -486,52 +446,6 @@ F 39 "Connectors.DbLib" H 1500 -1725 50  0001 L CNN "Library Name"
 F 40 "SAMTEC THD" H 1500 -1800 50  0001 L CNN "Footprint Library"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1500 -1875 50  0001 L CNN "License"
 	1    1500 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_Interface:MCP47CVB02 IC1
-U 1 1 5CE330E0
-P 3050 5000
-F 0 "IC1" H 3400 5165 50  0000 C CNN
-F 1 "MCP47CVB02" H 3400 5074 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:SOP65P490X110-8N" H 3050 3750 50  0001 L CNN
-F 3 "" H 3050 3675 50  0001 L CNN
-F 4 "MCP47CVB02" H 3050 3600 50  0001 L CNN "Part Number"
-F 5 "MCP47CVB02" H 3050 3525 50  0001 L CNN "Library Ref"
-F 6 "SchLib\\Analog & Interface.SchLib" H 3050 3450 50  0001 L CNN "Library Path"
-F 7 "MCP47CVB02" H 3050 3375 50  0001 L CNN "Comment"
-F 8 "Standard" H 3050 3300 50  0001 L CNN "Component Kind"
-F 9 "Standard" H 3050 3225 50  0001 L CNN "Component Type"
-F 10 "MCP47CVB02" H 3050 3150 50  0001 L CNN "Device"
-F 11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" H 3050 3075 50  0001 L CNN "PackageDescription"
-F 12 " " H 3050 3000 50  0001 L CNN "Status"
-F 13 "MCP47CVB02" H 3050 2775 50  0001 L CNN "Manufacturer Part Number"
-F 14 "8" H 3050 2700 50  0001 L CNN "Pin Count"
-F 15 "MSOP8" H 3050 2625 50  0001 L CNN "Case"
-F 16 "Yes" H 3050 2550 50  0001 L CNN "Mounted"
-F 17 "No" H 3050 2475 50  0001 L CNN "Socket"
-F 18 "Yes" H 3050 2400 50  0001 L CNN "SMD"
-F 19 "No" H 3050 2325 50  0001 L CNN "PressFit"
-F 20 "No" H 3050 2250 50  0001 L CNN "Sense"
-F 21 " " H 3050 2175 50  0001 L CNN "Sense Comment"
-F 22 "No" H 3050 2100 50  0001 L CNN "Bonding"
-F 23 " " H 3050 2025 50  0001 L CNN "Status Comment"
-F 24 "1.1mm" H 3050 1950 50  0001 L CNN "ComponentHeight"
-F 25 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 3050 1875 50  0001 L CNN "Footprint Path"
-F 26 "SOP65P490X110-8N" H 3050 1800 50  0001 L CNN "Footprint Ref"
-F 27 "CERN DEM JLC" H 3050 1725 50  0001 L CNN "Author"
-F 28 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\AD5662BRMZ-1.pdf" H 3050 1650 50  0001 L CNN "HelpURL"
-F 29 " " H 3050 1575 50  0001 L CNN "ComponentLink1URL"
-F 30 " " H 3050 1500 50  0001 L CNN "ComponentLink2URL"
-F 31 " " H 3050 1425 50  0001 L CNN "ComponentLink2Description"
-F 32 " " H 3050 1350 50  0001 L CNN "ComponentLink1Description"
-F 33 "01/10/11 00:00:00" H 3050 1275 50  0001 L CNN "CreateDate"
-F 34 "01/10/11 00:00:00" H 3050 1200 50  0001 L CNN "LatestRevisionDate"
-F 35 "Analog & Interface" H 3050 1125 50  0001 L CNN "Database Table Name"
-F 36 "ICs And Semiconductors.DbLib" H 3050 1050 50  0001 L CNN "Library Name"
-F 37 "ICs And Semiconductors SMD" H 3050 975 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3050 900 50  0001 L CNN "License"
-	1    3050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -676,102 +590,10 @@ Wire Wire Line
 	8150 3000 8750 3000
 Wire Wire Line
 	8150 3100 8750 3100
-$Sheet
-S 6650 2900 1500 3300
-U 5CEA48BD
-F0 "MCU" 50
-F1 "MCU.sch" 50
-F2 "ADC_REFIO" I L 6650 3000 50 
-F3 "CH1_VCM" I L 6650 4600 50 
-F4 "CH2_VCM" I L 6650 5700 50 
-F5 "CH1_VOFFSET_FB" I L 6650 4700 50 
-F6 "CH2_VOFFSET_FB" I L 6650 5800 50 
-F7 "CH1_PGA_S0" O L 6650 4400 50 
-F8 "CH1_PGA_S1" O L 6650 4500 50 
-F9 "CH1_SSR_GND" O L 6650 4200 50 
-F10 "CH1_SSR_DC" O L 6650 4300 50 
-F11 "VCC_EN" O L 6650 5950 50 
-F12 "MCU_SCL" I R 8150 3100 50 
-F13 "MCU_IRQ" O R 8150 3300 50 
-F14 "MCU_SDA" B R 8150 3000 50 
-F15 "ADC_SHDN" O L 6650 3400 50 
-F16 "ADC_SCK" O L 6650 3200 50 
-F17 "ADC_SDATA" B L 6650 3100 50 
-F18 "ADC_CS_N" O L 6650 3300 50 
-F19 "MCU_RESET" I R 8150 3200 50 
-F20 "CH1_LED_0" O R 8150 3800 50 
-F21 "CH1_LED_1" O R 8150 3900 50 
-F22 "CH2_LED_0" O R 8150 4100 50 
-F23 "CH2_LED_1" O R 8150 4200 50 
-F24 "DAC_SCL" O R 8150 5700 50 
-F25 "DAC_SDA" B R 8150 5800 50 
-F26 "CH2_PGA_S1" O L 6650 5600 50 
-F27 "CH2_PGA_S0" O L 6650 5500 50 
-F28 "CH2_SSR_GND" O L 6650 5300 50 
-F29 "CH2_SSR_DC" O L 6650 5400 50 
-F30 "CH1_RLY_ATT1_S" O L 6650 3900 50 
-F31 "CH1_RLY_ATT1_R" O L 6650 3800 50 
-F32 "CH1_RLY_ATT2_S" O L 6650 4100 50 
-F33 "CH1_RLY_ATT2_R" O L 6650 4000 50 
-F34 "CH2_RLY_ATT1_S" O L 6650 5000 50 
-F35 "CH2_RLY_ATT1_R" O L 6650 4900 50 
-F36 "CH2_RLY_ATT2_S" O L 6650 5200 50 
-F37 "CH2_RLY_ATT2_R" O L 6650 5100 50 
-$EndSheet
 Wire Wire Line
 	8150 3200 8750 3200
 Wire Wire Line
 	8750 3300 8150 3300
-$Comp
-L Resistors_SMD:R0603_220R_1%_0.1W_100PPM R1
-U 1 1 5CE26A04
-P 9450 3750
-F 0 "R1" H 9600 3947 50  0000 C CNN
-F 1 "R0603_220R_1%_0.1W_100PPM" H 9450 3555 50  0001 L CNN
-F 2 "Resistors SMD:RESC1608X55N" H 9450 3480 50  0001 L CNN
-F 3 "" H 9450 3405 50  0001 L CNN
-F 4 "220" H 9600 3856 50  0000 C CNN "Val"
-F 5 "R0603_220R_1%_0.1W_100PPM" H 9450 3330 50  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 9450 3255 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 9450 3180 50  0001 L CNN "Library Path"
-F 8 "220" H 9450 3105 50  0001 L CNN "Comment"
-F 9 "Standard" H 9450 3030 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 9450 2955 50  0001 L CNN "Component Type"
-F 11 " " H 9450 2880 50  0001 L CNN "PackageDescription"
-F 12 "2" H 9450 2805 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 9450 2730 50  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 9450 2655 50  0001 L CNN "Footprint Ref"
-F 15 "Preferred" H 9450 2580 50  0001 L CNN "Status"
-F 16 "0.1W" H 9450 2505 50  0001 L CNN "Power"
-F 17 "±100ppm/°C" H 9450 2430 50  0001 L CNN "TC"
-F 18 " " H 9450 2355 50  0001 L CNN "Voltage"
-F 19 "±1%" H 9450 2280 50  0001 L CNN "Tolerance"
-F 20 "General Purpose Thick Film Chip Resistor" H 9450 2205 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 9450 2130 50  0001 L CNN "Manufacturer"
-F 22 "R0603_220R_1%_0.1W_100PPM" H 9450 2055 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 9450 1980 50  0001 L CNN "Case"
-F 24 "No" H 9450 1905 50  0001 L CNN "PressFit"
-F 25 "Yes" H 9450 1830 50  0001 L CNN "Mounted"
-F 26 " " H 9450 1755 50  0001 L CNN "Sense Comment"
-F 27 "No" H 9450 1680 50  0001 L CNN "Sense"
-F 28 " " H 9450 1605 50  0001 L CNN "Status Comment"
-F 29 "No" H 9450 1530 50  0001 L CNN "Socket"
-F 30 "Yes" H 9450 1455 50  0001 L CNN "SMD"
-F 31 " " H 9450 1380 50  0001 L CNN "ComponentHeight"
-F 32 "NIC COMPONENT" H 9450 1305 50  0001 L CNN "Manufacturer1 Example"
-F 33 "NRC06F2200TRF" H 9450 1230 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.55mm" H 9450 1155 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf" H 9450 1080 50  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 9450 1005 50  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 9450 930 50  0001 L CNN "CreateDate"
-F 38 "03/13/08 00:00:00" H 9450 855 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistors SMD" H 9450 780 50  0001 L CNN "Database Table Name"
-F 40 "Resistors.DbLib" H 9450 705 50  0001 L CNN "Library Name"
-F 41 "Resistors SMD" H 9450 630 50  0001 L CNN "Footprint Library"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9450 555 50  0001 L CNN "License"
-	1    9450 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L LEDs_Displays:LED_DIALIGHT_550-3509F LD1
 U 1 1 5CE339D9
@@ -1020,10 +842,6 @@ F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    9450 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9050 3800 9050 3750
-Wire Wire Line
-	9050 3750 9450 3750
 Wire Wire Line
 	8150 3800 9050 3800
 Wire Wire Line
@@ -1645,6 +1463,244 @@ Text Notes 13275 8750 0    50   ~ 0
 Sampling clocks (system PLL->AFE)
 Text Notes 12525 1300 0    50   ~ 0
 Dirty +5V digital, 1 A
+$Sheet
+S 6650 2900 1500 3300
+U 5CEA48BD
+F0 "MCU" 50
+F1 "MCU.sch" 50
+F2 "ADC_REFIO" I L 6650 3000 50 
+F3 "CH1_VCM" I L 6650 4600 50 
+F4 "CH2_VCM" I L 6650 5700 50 
+F5 "CH1_VOFFSET_FB" I L 6650 4700 50 
+F6 "CH2_VOFFSET_FB" I L 6650 5800 50 
+F7 "CH1_PGA_S0" O L 6650 4400 50 
+F8 "CH1_PGA_S1" O L 6650 4500 50 
+F9 "CH1_SSR_GND" O L 6650 4200 50 
+F10 "CH1_SSR_DC" O L 6650 4300 50 
+F11 "VCC_EN" O L 6650 5950 50 
+F12 "MCU_SCL" I R 8150 3100 50 
+F13 "MCU_IRQ" O R 8150 3300 50 
+F14 "MCU_SDA" B R 8150 3000 50 
+F15 "ADC_SHDN" O L 6650 3400 50 
+F16 "ADC_SCK" O L 6650 3200 50 
+F17 "ADC_SDATA" B L 6650 3100 50 
+F18 "ADC_CS_N" O L 6650 3300 50 
+F19 "MCU_RESET" I R 8150 3200 50 
+F20 "CH1_LED_0" O R 8150 3800 50 
+F21 "CH1_LED_1" O R 8150 3900 50 
+F22 "CH2_LED_0" O R 8150 4100 50 
+F23 "CH2_LED_1" O R 8150 4200 50 
+F24 "DAC_SCL" O R 8150 5700 50 
+F25 "DAC_SDA" B R 8150 5800 50 
+F26 "CH2_PGA_S1" O L 6650 5600 50 
+F27 "CH2_PGA_S0" O L 6650 5500 50 
+F28 "CH2_SSR_GND" O L 6650 5300 50 
+F29 "CH2_SSR_DC" O L 6650 5400 50 
+F30 "CH1_RLY_ATT1_S" O L 6650 3900 50 
+F31 "CH1_RLY_ATT1_R" O L 6650 3800 50 
+F32 "CH1_RLY_ATT2_S" O L 6650 4100 50 
+F33 "CH1_RLY_ATT2_R" O L 6650 4000 50 
+F34 "CH2_RLY_ATT1_S" O L 6650 5000 50 
+F35 "CH2_RLY_ATT1_R" O L 6650 4900 50 
+F36 "CH2_RLY_ATT2_S" O L 6650 5200 50 
+F37 "CH2_RLY_ATT2_R" O L 6650 5100 50 
+$EndSheet
+$Comp
+L Analog_Interface:MCP47CVB02 IC1
+U 1 1 5CE330E0
+P 3050 5000
+F 0 "IC1" H 3400 5165 50  0000 C CNN
+F 1 "MCP47CVB02" H 3400 5074 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SOP65P490X110-8N" H 3050 3750 50  0001 L CNN
+F 3 "" H 3050 3675 50  0001 L CNN
+F 4 "MCP47CVB02" H 3050 3600 50  0001 L CNN "Part Number"
+F 5 "MCP47CVB02" H 3050 3525 50  0001 L CNN "Library Ref"
+F 6 "SchLib\\Analog & Interface.SchLib" H 3050 3450 50  0001 L CNN "Library Path"
+F 7 "MCP47CVB02" H 3050 3375 50  0001 L CNN "Comment"
+F 8 "Standard" H 3050 3300 50  0001 L CNN "Component Kind"
+F 9 "Standard" H 3050 3225 50  0001 L CNN "Component Type"
+F 10 "MCP47CVB02" H 3050 3150 50  0001 L CNN "Device"
+F 11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" H 3050 3075 50  0001 L CNN "PackageDescription"
+F 12 " " H 3050 3000 50  0001 L CNN "Status"
+F 13 "MCP47CVB02" H 3050 2775 50  0001 L CNN "Manufacturer Part Number"
+F 14 "8" H 3050 2700 50  0001 L CNN "Pin Count"
+F 15 "MSOP8" H 3050 2625 50  0001 L CNN "Case"
+F 16 "Yes" H 3050 2550 50  0001 L CNN "Mounted"
+F 17 "No" H 3050 2475 50  0001 L CNN "Socket"
+F 18 "Yes" H 3050 2400 50  0001 L CNN "SMD"
+F 19 "No" H 3050 2325 50  0001 L CNN "PressFit"
+F 20 "No" H 3050 2250 50  0001 L CNN "Sense"
+F 21 " " H 3050 2175 50  0001 L CNN "Sense Comment"
+F 22 "No" H 3050 2100 50  0001 L CNN "Bonding"
+F 23 " " H 3050 2025 50  0001 L CNN "Status Comment"
+F 24 "1.1mm" H 3050 1950 50  0001 L CNN "ComponentHeight"
+F 25 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 3050 1875 50  0001 L CNN "Footprint Path"
+F 26 "SOP65P490X110-8N" H 3050 1800 50  0001 L CNN "Footprint Ref"
+F 27 "CERN DEM JLC" H 3050 1725 50  0001 L CNN "Author"
+F 28 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\AD5662BRMZ-1.pdf" H 3050 1650 50  0001 L CNN "HelpURL"
+F 29 " " H 3050 1575 50  0001 L CNN "ComponentLink1URL"
+F 30 " " H 3050 1500 50  0001 L CNN "ComponentLink2URL"
+F 31 " " H 3050 1425 50  0001 L CNN "ComponentLink2Description"
+F 32 " " H 3050 1350 50  0001 L CNN "ComponentLink1Description"
+F 33 "01/10/11 00:00:00" H 3050 1275 50  0001 L CNN "CreateDate"
+F 34 "01/10/11 00:00:00" H 3050 1200 50  0001 L CNN "LatestRevisionDate"
+F 35 "Analog & Interface" H 3050 1125 50  0001 L CNN "Database Table Name"
+F 36 "ICs And Semiconductors.DbLib" H 3050 1050 50  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 3050 975 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3050 900 50  0001 L CNN "License"
+	1    3050 5000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2550 1300 1700 1400
+U 5CE03C6E
+F0 "AFE Channel 1" 50
+F1 "afe_channel.sch" 50
+F2 "RLY_ATT1_R" I L 2550 1800 50 
+F3 "RLY_ATT1_S" I L 2550 1900 50 
+F4 "AIN" I L 2550 1400 50 
+F5 "RLY_ATT2_S" I L 2550 2100 50 
+F6 "RLY_ATT2_R" I L 2550 2000 50 
+F7 "SSR_GND" I L 2550 2200 50 
+F8 "SSR_DC" I L 2550 2300 50 
+F9 "PGA_S0" I L 2550 2400 50 
+F10 "PGA_S1" I L 2550 2500 50 
+F11 "ADC_VCM" I R 4250 1400 50 
+F12 "ADC_N" O R 4250 1700 50 
+F13 "ADC_P" O R 4250 1600 50 
+F14 "VOFFSET" I R 4250 1900 50 
+F15 "VOFFSET_FB" O R 4250 2600 50 
+$EndSheet
+$Sheet
+S 2550 3000 1700 1400
+U 5CDEDE64
+F0 "AFE Channel 2" 50
+F1 "afe_channel.sch" 50
+F2 "RLY_ATT1_R" I L 2550 3500 50 
+F3 "RLY_ATT1_S" I L 2550 3600 50 
+F4 "AIN" I L 2550 3100 50 
+F5 "RLY_ATT2_S" I L 2550 3700 50 
+F6 "RLY_ATT2_R" I L 2550 3800 50 
+F7 "SSR_GND" I L 2550 3900 50 
+F8 "SSR_DC" I L 2550 4000 50 
+F9 "PGA_S0" I L 2550 4100 50 
+F10 "PGA_S1" I L 2550 4200 50 
+F11 "ADC_VCM" I R 4250 3100 50 
+F12 "ADC_N" O R 4250 3400 50 
+F13 "ADC_P" O R 4250 3300 50 
+F14 "VOFFSET" I R 4250 3600 50 
+F15 "VOFFSET_FB" O R 4250 4300 50 
+$EndSheet
+Text Label 9150 3750 0    50   ~ 0
+DUPA
+Wire Wire Line
+	9050 3750 9450 3750
+Wire Wire Line
+	9050 3800 9050 3750
+$Comp
+L Resistors_SMD:R0603_220R_1%_0.1W_100PPM R1
+U 1 1 5CE26A04
+P 9450 3750
+F 0 "R1" H 9600 3947 50  0000 C CNN
+F 1 "R0603_220R_1%_0.1W_100PPM" H 9450 3555 50  0001 L CNN
+F 2 "Resistors SMD:RESC1608X55N" H 9450 3480 50  0001 L CNN
+F 3 "" H 9450 3405 50  0001 L CNN
+F 4 "220" H 9600 3856 50  0000 C CNN "Val"
+F 5 "R0603_220R_1%_0.1W_100PPM" H 9450 3330 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 9450 3255 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 9450 3180 50  0001 L CNN "Library Path"
+F 8 "220" H 9450 3105 50  0001 L CNN "Comment"
+F 9 "Standard" H 9450 3030 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 9450 2955 50  0001 L CNN "Component Type"
+F 11 " " H 9450 2880 50  0001 L CNN "PackageDescription"
+F 12 "2" H 9450 2805 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 9450 2730 50  0001 L CNN "Footprint Path"
+F 14 "RESC1608X55N" H 9450 2655 50  0001 L CNN "Footprint Ref"
+F 15 "Preferred" H 9450 2580 50  0001 L CNN "Status"
+F 16 "0.1W" H 9450 2505 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 9450 2430 50  0001 L CNN "TC"
+F 18 " " H 9450 2355 50  0001 L CNN "Voltage"
+F 19 "±1%" H 9450 2280 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 9450 2205 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 9450 2130 50  0001 L CNN "Manufacturer"
+F 22 "R0603_220R_1%_0.1W_100PPM" H 9450 2055 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0603" H 9450 1980 50  0001 L CNN "Case"
+F 24 "No" H 9450 1905 50  0001 L CNN "PressFit"
+F 25 "Yes" H 9450 1830 50  0001 L CNN "Mounted"
+F 26 " " H 9450 1755 50  0001 L CNN "Sense Comment"
+F 27 "No" H 9450 1680 50  0001 L CNN "Sense"
+F 28 " " H 9450 1605 50  0001 L CNN "Status Comment"
+F 29 "No" H 9450 1530 50  0001 L CNN "Socket"
+F 30 "Yes" H 9450 1455 50  0001 L CNN "SMD"
+F 31 " " H 9450 1380 50  0001 L CNN "ComponentHeight"
+F 32 "NIC COMPONENT" H 9450 1305 50  0001 L CNN "Manufacturer1 Example"
+F 33 "NRC06F2200TRF" H 9450 1230 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.55mm" H 9450 1155 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf" H 9450 1080 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 9450 1005 50  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 9450 930 50  0001 L CNN "CreateDate"
+F 38 "03/13/08 00:00:00" H 9450 855 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistors SMD" H 9450 780 50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 9450 705 50  0001 L CNN "Library Name"
+F 41 "Resistors SMD" H 9450 630 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9450 555 50  0001 L CNN "License"
+	1    9450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0603_220R_1%_0.1W_100PPM R?
+U 1 1 5CE61B35
+P 9150 3050
+F 0 "R?" H 9300 3247 50  0000 C CNN
+F 1 "R0603_220R_1%_0.1W_100PPM" H 9150 2855 50  0001 L CNN
+F 2 "Resistors SMD:RESC1608X55N" H 9150 2780 50  0001 L CNN
+F 3 "" H 9150 2705 50  0001 L CNN
+F 4 "220" H 9300 3156 50  0000 C CNN "Val"
+F 5 "R0603_220R_1%_0.1W_100PPM" H 9150 2630 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 9150 2555 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 9150 2480 50  0001 L CNN "Library Path"
+F 8 "220" H 9150 2405 50  0001 L CNN "Comment"
+F 9 "Standard" H 9150 2330 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 9150 2255 50  0001 L CNN "Component Type"
+F 11 " " H 9150 2180 50  0001 L CNN "PackageDescription"
+F 12 "2" H 9150 2105 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 9150 2030 50  0001 L CNN "Footprint Path"
+F 14 "RESC1608X55N" H 9150 1955 50  0001 L CNN "Footprint Ref"
+F 15 "Preferred" H 9150 1880 50  0001 L CNN "Status"
+F 16 "0.1W" H 9150 1805 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 9150 1730 50  0001 L CNN "TC"
+F 18 " " H 9150 1655 50  0001 L CNN "Voltage"
+F 19 "±1%" H 9150 1580 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 9150 1505 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 9150 1430 50  0001 L CNN "Manufacturer"
+F 22 "R0603_220R_1%_0.1W_100PPM" H 9150 1355 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0603" H 9150 1280 50  0001 L CNN "Case"
+F 24 "No" H 9150 1205 50  0001 L CNN "PressFit"
+F 25 "Yes" H 9150 1130 50  0001 L CNN "Mounted"
+F 26 " " H 9150 1055 50  0001 L CNN "Sense Comment"
+F 27 "No" H 9150 980 50  0001 L CNN "Sense"
+F 28 " " H 9150 905 50  0001 L CNN "Status Comment"
+F 29 "No" H 9150 830 50  0001 L CNN "Socket"
+F 30 "Yes" H 9150 755 50  0001 L CNN "SMD"
+F 31 " " H 9150 680 50  0001 L CNN "ComponentHeight"
+F 32 "NIC COMPONENT" H 9150 605 50  0001 L CNN "Manufacturer1 Example"
+F 33 "NRC06F2200TRF" H 9150 530 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.55mm" H 9150 455 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf" H 9150 380 50  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 9150 305 50  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 9150 230 50  0001 L CNN "CreateDate"
+F 38 "03/13/08 00:00:00" H 9150 155 50  0001 L CNN "LatestRevisionDate"
+F 39 "Resistors SMD" H 9150 80  50  0001 L CNN "Database Table Name"
+F 40 "Resistors.DbLib" H 9150 5   50  0001 L CNN "Library Name"
+F 41 "Resistors SMD" H 9150 -70 50  0001 L CNN "Footprint Library"
+F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9150 -145 50  0001 L CNN "License"
+	1    9150 3050
+	1    0    0    -1  
+$EndComp
+Text Label 9550 3050 0    50   ~ 0
+DUPA
+Wire Wire Line
+	9450 3050 9850 3050
 Wire Bus Line
 	11200 2300 11200 3000
 $EndSCHEMATC
