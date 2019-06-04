@@ -18,9 +18,9 @@ Text Label 2450 1300 0    50   ~ 0
 DSI_RESET_N
 Wire Wire Line
 	2950 1300 2450 1300
-Text Label 6050 1400 0    50   ~ 0
+Text Label 6050 2600 0    50   ~ 0
 DSI_CLK_P
-Text Label 6050 1300 0    50   ~ 0
+Text Label 6050 2500 0    50   ~ 0
 DSI_CLK_N
 Wire Wire Line
 	8350 1850 8250 1850
@@ -724,7 +724,7 @@ Text Label 6050 2000 0    50   ~ 0
 DSI_L1_P
 Wire Wire Line
 	5750 2500 6450 2500
-Text Label 6050 2500 0    50   ~ 0
+Text Label 6050 1300 0    50   ~ 0
 DSI_L2_N
 Text Label 6050 3200 0    50   ~ 0
 DSI_L3_P
@@ -792,7 +792,7 @@ F5 "HS_N" I L 4700 1500 50
 F6 "LANE_P" O R 5750 1400 50 
 F7 "LANE_N" O R 5750 1300 50 
 $EndSheet
-Text Label 6050 2600 0    50   ~ 0
+Text Label 6050 1400 0    50   ~ 0
 DSI_L2_P
 Wire Wire Line
 	4100 1300 4700 1300
@@ -871,4 +871,8 @@ Wire Wire Line
 	7600 4500 7600 4450
 Wire Wire Line
 	7550 4450 7600 4450
+Text Notes 2700 6800 0    50   ~ 0
+# FPGA pin mapping (MYIR Z-Turn)\n#\n# MIPI lanes HS(+{slash}-)           LP(+{slash}-)\n# 0          M17{slash}M18      K16{slash}J16\n# 1          L19{slash}L20      L16{slash}L17\n# 2          C20{slash}B20      J18{slash}H18\n# 3          G17{slash}G18      E18{slash}E19\n# clk        F19{slash}F20      G19{slash}G20\n# reset       B19\n# backlight(gpio0) A20\n
+Text Notes 4400 950  0    50   ~ 0
+Warning! Lanes have been swapped in order to facilitate PCB layout\n\nPlease UPDATE the DSI_LANE() macro instantiations in the panel description in the device driver.
 $EndSCHEMATC

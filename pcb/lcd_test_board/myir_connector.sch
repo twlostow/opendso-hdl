@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -415,20 +415,12 @@ Text Notes 8350 2900 0    50   ~ 0
 HS[0]
 Wire Wire Line
 	5800 2800 7650 2800
-Text HLabel 7650 2700 2    50   Output ~ 0
-DSI_LP_N0
-Text HLabel 7650 2600 2    50   Output ~ 0
-DSI_LP_P0
-Text HLabel 7650 2900 2    50   Output ~ 0
-DSI_HS_N0
 Wire Wire Line
 	5800 2700 7650 2700
 Wire Wire Line
 	5800 2900 7650 2900
 Wire Wire Line
 	5800 2600 7650 2600
-Text HLabel 7650 2800 2    50   Output ~ 0
-DSI_HS_P0
 Text HLabel 7650 3300 2    50   Output ~ 0
 DSI_HS_P1
 Text HLabel 7650 3400 2    50   Output ~ 0
@@ -445,14 +437,6 @@ Wire Wire Line
 	5800 3200 7650 3200
 Wire Wire Line
 	5800 3300 7650 3300
-Text HLabel 7650 3600 2    50   Output ~ 0
-DSI_CLK_LP_P
-Text HLabel 7650 3700 2    50   Output ~ 0
-DSI_CLK_LP_N
-Text HLabel 7650 3800 2    50   Output ~ 0
-DSI_CLK_P
-Text HLabel 7650 3900 2    50   Output ~ 0
-DSI_CLK_N
 Wire Wire Line
 	5800 3600 7650 3600
 Wire Wire Line
@@ -529,4 +513,20 @@ Wire Wire Line
 	3250 1800 5100 1800
 Wire Wire Line
 	3250 1700 5100 1700
+Text HLabel 7650 2900 2    50   Output ~ 0
+DSI_CLK_N
+Text HLabel 7650 2800 2    50   Output ~ 0
+DSI_CLK_P
+Text HLabel 7650 2700 2    50   Output ~ 0
+DSI_CLK_LP_N
+Text HLabel 7650 2600 2    50   Output ~ 0
+DSI_CLK_LP_P
+Text HLabel 7650 3800 2    50   Output ~ 0
+DSI_HS_P0
+Text HLabel 7650 3900 2    50   Output ~ 0
+DSI_HS_N0
+Text HLabel 7650 3600 2    50   Output ~ 0
+DSI_LP_P0
+Text HLabel 7650 3700 2    50   Output ~ 0
+DSI_LP_N0
 $EndSCHEMATC
