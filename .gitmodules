@@ -1,0 +1,3 @@
+[submodule "hdl/ip_cores/dsi_core"]
+	path = hdl/ip_cores/dsi_core
+	url = https://github.com/twlostow/dsi-shield/
