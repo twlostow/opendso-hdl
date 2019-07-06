@@ -265,6 +265,7 @@ proc create_root_design { parentCell } {
     set_property -dict [ list \
    CONFIG.g_data_delay {50} \
    CONFIG.g_lanes {4} \
+   CONFIG.g_pixels_per_clock {1} \
  ] $dsi_core_zynq_wrapper_0
 
   # Create instance: processing_system7_0, and set properties
@@ -1094,10 +1095,13 @@ proc create_root_design { parentCell } {
   set_property -dict [ list \
    CONFIG.AXIMM_DATA_WIDTH {64} \
    CONFIG.C_M_AXI_MM_VIDEO_DATA_WIDTH {64} \
-   CONFIG.HAS_ALPHA {1} \
-   CONFIG.HAS_RGB8 {0} \
-   CONFIG.HAS_RGBA8 {1} \
-   CONFIG.NUM_VIDEO_COMPONENTS {4} \
+   CONFIG.HAS_ALPHA {0} \
+   CONFIG.HAS_BGR8 {1} \
+   CONFIG.HAS_BGRX8 {1} \
+   CONFIG.HAS_RGB8 {1} \
+   CONFIG.HAS_RGBA8 {0} \
+   CONFIG.HAS_RGBX8 {1} \
+   CONFIG.NUM_VIDEO_COMPONENTS {3} \
    CONFIG.SAMPLES_PER_CLOCK {1} \
  ] $v_frmbuf_rd_0
 
@@ -1108,6 +1112,14 @@ proc create_root_design { parentCell } {
    CONFIG.DIN_TO {0} \
    CONFIG.DIN_WIDTH {3} \
  ] $xlslice_0
+
+  # Create instance: xlslice_1, and set properties
+  set xlslice_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_1 ]
+  set_property -dict [ list \
+   CONFIG.DIN_FROM {0} \
+   CONFIG.DIN_TO {0} \
+   CONFIG.DIN_WIDTH {32} \
+ ] $xlslice_1
 
   # Create interface connections
   connect_bd_intf_net -intf_net axi_smc_M00_AXI [get_bd_intf_pins axi_smc/M00_AXI] [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
@@ -1121,7 +1133,7 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net v_frmbuf_rd_0_m_axis_video [get_bd_intf_pins dsi_core_zynq_wrapper_0/s_axis] [get_bd_intf_pins v_frmbuf_rd_0/m_axis_video]
 
   # Create port connections
-  connect_bd_net -net Net [get_bd_pins axi_gpio_0/gpio_io_i] [get_bd_pins axi_gpio_0/gpio_io_o]
+  connect_bd_net -net axi_gpio_0_gpio_io_o [get_bd_pins axi_gpio_0/gpio_io_o] [get_bd_pins xlslice_1/Din]
   connect_bd_net -net dsi_core_zynq_wrapper_0_dsi_clk_lp_n_o [get_bd_ports dsi_clk_lp_n_o] [get_bd_pins dsi_core_zynq_wrapper_0/dsi_clk_lp_n_o]
   connect_bd_net -net dsi_core_zynq_wrapper_0_dsi_clk_lp_p_o [get_bd_ports dsi_clk_lp_p_o] [get_bd_pins dsi_core_zynq_wrapper_0/dsi_clk_lp_p_o]
   connect_bd_net -net dsi_core_zynq_wrapper_0_dsi_clk_n_o [get_bd_ports dsi_clk_n_o] [get_bd_pins dsi_core_zynq_wrapper_0/dsi_clk_n_o]
@@ -1135,9 +1147,10 @@ proc create_root_design { parentCell } {
   connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins dsi_core_zynq_wrapper_0/clk_pll_i] [get_bd_pins processing_system7_0/FCLK_CLK0]
   connect_bd_net -net processing_system7_0_FCLK_CLK1 [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins axi_smc/aclk] [get_bd_pins dsi_core_zynq_wrapper_0/clk_pll_o] [get_bd_pins dsi_core_zynq_wrapper_0/s_axil_ACLK] [get_bd_pins dsi_core_zynq_wrapper_0/s_axis_aclk] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/M02_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_50M/slowest_sync_clk] [get_bd_pins v_frmbuf_rd_0/ap_clk]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins dsi_core_zynq_wrapper_0/clk_pll_rstn_i] [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_50M/ext_reset_in]
-  connect_bd_net -net rst_ps7_0_50M_peripheral_aresetn [get_bd_pins axi_gpio_0/s_axi_aresetn] [get_bd_pins axi_smc/aresetn] [get_bd_pins dsi_core_zynq_wrapper_0/s_axil_ARESETN] [get_bd_pins dsi_core_zynq_wrapper_0/s_axis_aresetn] [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/M02_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_50M/peripheral_aresetn] [get_bd_pins v_frmbuf_rd_0/ap_rst_n]
+  connect_bd_net -net rst_ps7_0_50M_peripheral_aresetn [get_bd_pins axi_gpio_0/s_axi_aresetn] [get_bd_pins axi_smc/aresetn] [get_bd_pins dsi_core_zynq_wrapper_0/s_axil_ARESETN] [get_bd_pins dsi_core_zynq_wrapper_0/s_axis_aresetn] [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/M02_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_50M/peripheral_aresetn]
   connect_bd_net -net v_frmbuf_rd_0_interrupt [get_bd_pins processing_system7_0/IRQ_F2P] [get_bd_pins v_frmbuf_rd_0/interrupt]
   connect_bd_net -net xlslice_0_Dout [get_bd_ports dsi_backlight_en_o] [get_bd_pins xlslice_0/Dout]
+  connect_bd_net -net xlslice_1_Dout [get_bd_pins v_frmbuf_rd_0/ap_rst_n] [get_bd_pins xlslice_1/Dout]
 
   # Create address segments
   create_bd_addr_seg -range 0x00010000 -offset 0x41200000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs axi_gpio_0/S_AXI/Reg] SEG_axi_gpio_0_Reg
@@ -1149,6 +1162,7 @@ proc create_root_design { parentCell } {
   # Restore current instance
   current_bd_instance $oldCurInst
 
+  validate_bd_design
   save_bd_design
 }
 # End of create_root_design()
@@ -1160,6 +1174,4 @@ proc create_root_design { parentCell } {
 
 create_root_design ""
 
-
-common::send_msg_id "BD_TCL-1000" "WARNING" "This Tcl script was generated from a block design that has not been validated. It is possible that design <$design_name> may result in errors during validation."
 
